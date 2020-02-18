@@ -1,0 +1,51 @@
+{
+  "name": "todo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build-schema": "babel-node src/scripts/buildSchema.js",
+    "build": "yarn build-schema && babel src --out-dir dist",
+    "start": "yarn build && node dist/index.js",
+    "dev": "nodemon --exec npx babel-node src/index.js",
+    "prettier": "prettier --config ./.prettierrc --write \"**/*.js\"",
+    "pretest": "eslint --ignore-path .gitignore .",
+    "postinstall": "rm -rf dist && yarn run build",
+    "lint": "yarn prettier --write --check --config ./.prettierrc \"**/*.js\" && eslint --fix ./src",
+    "release": "release-it patch --no-npm.publish"
+  },
+  "dependencies": {
+    "@babel/cli": "^7.8.3",
+    "@babel/core": "^7.8.3",
+    "@babel/node": "^7.8.3",
+    "@babel/preset-env": "^7.8.3",
+    "apollo-engine": "^1.1.2",
+    "apollo-server-express": "^2.9.16",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "graphql": "^14.5.8",
+    "graphql-compose": "^7.8.0",
+    "graphql-compose-connection": "^6.0.3",
+    "graphql-compose-mongoose": "^7.3.1",
+    "graphql-middleware": "^4.0.2",
+    "graphql-tools": "^4.0.6",
+    "mongoose": "^5.8.7",
+    "mongoose-bcrypt": "^1.6.0",
+    "mongoose-timestamp": "^0.6.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.3",
+    "babel-loader": "^8.0.6",
+    "babel-preset-env": "^1.7.0",
+    "eslint": "^6.8.0",
+    "eslint-plugin-babel": "^5.3.0",
+    "eslint-plugin-import": "^2.20.0",
+    "eslint-plugin-node": "^11.0.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "fs-extra": "^8.1.0",
+    "nodemon": "^2.0.2",
+    "prettier": "^1.19.1"
+  }
+}

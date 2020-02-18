@@ -1,0 +1,6186 @@
+"""Provides default value for input field."""
+directive @default(value: JSON!) on INPUT_FIELD_DEFINITION
+
+input _idOperatorsFilterFindManyFundComprehensiveInput {
+  gt: String
+  gte: String
+  lt: String
+  lte: String
+  ne: String
+  in: [String]
+  nin: [String]
+}
+
+input _idOperatorsFilterFindManyFundInput {
+  gt: String
+  gte: String
+  lt: String
+  lte: String
+  ne: String
+  in: [String]
+  nin: [String]
+}
+
+input _idOperatorsFilterFindManyFundPricingMonthlyInput {
+  gt: String
+  gte: String
+  lt: String
+  lte: String
+  ne: String
+  in: [String]
+  nin: [String]
+}
+
+input _idOperatorsFilterFindManyPartyInput {
+  gt: MongoID
+  gte: MongoID
+  lt: MongoID
+  lte: MongoID
+  ne: MongoID
+  in: [MongoID]
+  nin: [MongoID]
+}
+
+input _idOperatorsFilterFindManyPolicyInput {
+  gt: String
+  gte: String
+  lt: String
+  lte: String
+  ne: String
+  in: [String]
+  nin: [String]
+}
+
+input _idOperatorsFilterFindManyRiskProfileLookupInput {
+  gt: String
+  gte: String
+  lt: String
+  lte: String
+  ne: String
+  in: [String]
+  nin: [String]
+}
+
+input _idOperatorsFilterFindManySectorFundPricingInput {
+  gt: String
+  gte: String
+  lt: String
+  lte: String
+  ne: String
+  in: [String]
+  nin: [String]
+}
+
+input _idOperatorsFilterFindManySectorFundPricingMonthlyInput {
+  gt: String
+  gte: String
+  lt: String
+  lte: String
+  ne: String
+  in: [String]
+  nin: [String]
+}
+
+input _idOperatorsFilterFindManySubscriptionInput {
+  gt: String
+  gte: String
+  lt: String
+  lte: String
+  ne: String
+  in: [String]
+  nin: [String]
+}
+
+input _idOperatorsFilterFindOneFundComprehensiveInput {
+  gt: String
+  gte: String
+  lt: String
+  lte: String
+  ne: String
+  in: [String]
+  nin: [String]
+}
+
+input _idOperatorsFilterFindOneFundInput {
+  gt: String
+  gte: String
+  lt: String
+  lte: String
+  ne: String
+  in: [String]
+  nin: [String]
+}
+
+input _idOperatorsFilterFindOneFundPricingMonthlyInput {
+  gt: String
+  gte: String
+  lt: String
+  lte: String
+  ne: String
+  in: [String]
+  nin: [String]
+}
+
+input _idOperatorsFilterFindOnePartyInput {
+  gt: MongoID
+  gte: MongoID
+  lt: MongoID
+  lte: MongoID
+  ne: MongoID
+  in: [MongoID]
+  nin: [MongoID]
+}
+
+input _idOperatorsFilterFindOnePolicyInput {
+  gt: String
+  gte: String
+  lt: String
+  lte: String
+  ne: String
+  in: [String]
+  nin: [String]
+}
+
+input _idOperatorsFilterFindOneRiskProfileLookupInput {
+  gt: String
+  gte: String
+  lt: String
+  lte: String
+  ne: String
+  in: [String]
+  nin: [String]
+}
+
+input _idOperatorsFilterFindOneSectorFundPricingInput {
+  gt: String
+  gte: String
+  lt: String
+  lte: String
+  ne: String
+  in: [String]
+  nin: [String]
+}
+
+input _idOperatorsFilterFindOneSectorFundPricingMonthlyInput {
+  gt: String
+  gte: String
+  lt: String
+  lte: String
+  ne: String
+  in: [String]
+  nin: [String]
+}
+
+input _idOperatorsFilterFindOneSubscriptionInput {
+  gt: String
+  gte: String
+  lt: String
+  lte: String
+  ne: String
+  in: [String]
+  nin: [String]
+}
+
+input _idOperatorsFilterFundComprehensiveInput {
+  gt: String
+  gte: String
+  lt: String
+  lte: String
+  ne: String
+  in: [String]
+  nin: [String]
+}
+
+input _idOperatorsFilterFundInput {
+  gt: String
+  gte: String
+  lt: String
+  lte: String
+  ne: String
+  in: [String]
+  nin: [String]
+}
+
+input _idOperatorsFilterFundPricingMonthlyInput {
+  gt: String
+  gte: String
+  lt: String
+  lte: String
+  ne: String
+  in: [String]
+  nin: [String]
+}
+
+input _idOperatorsFilterPartyInput {
+  gt: MongoID
+  gte: MongoID
+  lt: MongoID
+  lte: MongoID
+  ne: MongoID
+  in: [MongoID]
+  nin: [MongoID]
+}
+
+input _idOperatorsFilterPolicyInput {
+  gt: String
+  gte: String
+  lt: String
+  lte: String
+  ne: String
+  in: [String]
+  nin: [String]
+}
+
+input _idOperatorsFilterRemoveManyFundComprehensiveInput {
+  gt: String
+  gte: String
+  lt: String
+  lte: String
+  ne: String
+  in: [String]
+  nin: [String]
+}
+
+input _idOperatorsFilterRemoveManyFundInput {
+  gt: String
+  gte: String
+  lt: String
+  lte: String
+  ne: String
+  in: [String]
+  nin: [String]
+}
+
+input _idOperatorsFilterRemoveManyFundPricingMonthlyInput {
+  gt: String
+  gte: String
+  lt: String
+  lte: String
+  ne: String
+  in: [String]
+  nin: [String]
+}
+
+input _idOperatorsFilterRemoveManyPartyInput {
+  gt: MongoID
+  gte: MongoID
+  lt: MongoID
+  lte: MongoID
+  ne: MongoID
+  in: [MongoID]
+  nin: [MongoID]
+}
+
+input _idOperatorsFilterRemoveManyPolicyInput {
+  gt: String
+  gte: String
+  lt: String
+  lte: String
+  ne: String
+  in: [String]
+  nin: [String]
+}
+
+input _idOperatorsFilterRemoveManyRiskProfileLookupInput {
+  gt: String
+  gte: String
+  lt: String
+  lte: String
+  ne: String
+  in: [String]
+  nin: [String]
+}
+
+input _idOperatorsFilterRemoveManySectorFundPricingInput {
+  gt: String
+  gte: String
+  lt: String
+  lte: String
+  ne: String
+  in: [String]
+  nin: [String]
+}
+
+input _idOperatorsFilterRemoveManySectorFundPricingMonthlyInput {
+  gt: String
+  gte: String
+  lt: String
+  lte: String
+  ne: String
+  in: [String]
+  nin: [String]
+}
+
+input _idOperatorsFilterRemoveManySubscriptionInput {
+  gt: String
+  gte: String
+  lt: String
+  lte: String
+  ne: String
+  in: [String]
+  nin: [String]
+}
+
+input _idOperatorsFilterRemoveOneFundComprehensiveInput {
+  gt: String
+  gte: String
+  lt: String
+  lte: String
+  ne: String
+  in: [String]
+  nin: [String]
+}
+
+input _idOperatorsFilterRemoveOneFundInput {
+  gt: String
+  gte: String
+  lt: String
+  lte: String
+  ne: String
+  in: [String]
+  nin: [String]
+}
+
+input _idOperatorsFilterRemoveOneFundPricingMonthlyInput {
+  gt: String
+  gte: String
+  lt: String
+  lte: String
+  ne: String
+  in: [String]
+  nin: [String]
+}
+
+input _idOperatorsFilterRemoveOnePartyInput {
+  gt: MongoID
+  gte: MongoID
+  lt: MongoID
+  lte: MongoID
+  ne: MongoID
+  in: [MongoID]
+  nin: [MongoID]
+}
+
+input _idOperatorsFilterRemoveOnePolicyInput {
+  gt: String
+  gte: String
+  lt: String
+  lte: String
+  ne: String
+  in: [String]
+  nin: [String]
+}
+
+input _idOperatorsFilterRemoveOneRiskProfileLookupInput {
+  gt: String
+  gte: String
+  lt: String
+  lte: String
+  ne: String
+  in: [String]
+  nin: [String]
+}
+
+input _idOperatorsFilterRemoveOneSectorFundPricingInput {
+  gt: String
+  gte: String
+  lt: String
+  lte: String
+  ne: String
+  in: [String]
+  nin: [String]
+}
+
+input _idOperatorsFilterRemoveOneSectorFundPricingMonthlyInput {
+  gt: String
+  gte: String
+  lt: String
+  lte: String
+  ne: String
+  in: [String]
+  nin: [String]
+}
+
+input _idOperatorsFilterRemoveOneSubscriptionInput {
+  gt: String
+  gte: String
+  lt: String
+  lte: String
+  ne: String
+  in: [String]
+  nin: [String]
+}
+
+input _idOperatorsFilterRiskProfileLookupInput {
+  gt: String
+  gte: String
+  lt: String
+  lte: String
+  ne: String
+  in: [String]
+  nin: [String]
+}
+
+input _idOperatorsFilterSectorFundPricingInput {
+  gt: String
+  gte: String
+  lt: String
+  lte: String
+  ne: String
+  in: [String]
+  nin: [String]
+}
+
+input _idOperatorsFilterSectorFundPricingMonthlyInput {
+  gt: String
+  gte: String
+  lt: String
+  lte: String
+  ne: String
+  in: [String]
+  nin: [String]
+}
+
+input _idOperatorsFilterSubscriptionInput {
+  gt: String
+  gte: String
+  lt: String
+  lte: String
+  ne: String
+  in: [String]
+  nin: [String]
+}
+
+input _idOperatorsFilterUpdateManyFundComprehensiveInput {
+  gt: String
+  gte: String
+  lt: String
+  lte: String
+  ne: String
+  in: [String]
+  nin: [String]
+}
+
+input _idOperatorsFilterUpdateManyFundInput {
+  gt: String
+  gte: String
+  lt: String
+  lte: String
+  ne: String
+  in: [String]
+  nin: [String]
+}
+
+input _idOperatorsFilterUpdateManyFundPricingMonthlyInput {
+  gt: String
+  gte: String
+  lt: String
+  lte: String
+  ne: String
+  in: [String]
+  nin: [String]
+}
+
+input _idOperatorsFilterUpdateManyPartyInput {
+  gt: MongoID
+  gte: MongoID
+  lt: MongoID
+  lte: MongoID
+  ne: MongoID
+  in: [MongoID]
+  nin: [MongoID]
+}
+
+input _idOperatorsFilterUpdateManyPolicyInput {
+  gt: String
+  gte: String
+  lt: String
+  lte: String
+  ne: String
+  in: [String]
+  nin: [String]
+}
+
+input _idOperatorsFilterUpdateManyRiskProfileLookupInput {
+  gt: String
+  gte: String
+  lt: String
+  lte: String
+  ne: String
+  in: [String]
+  nin: [String]
+}
+
+input _idOperatorsFilterUpdateManySectorFundPricingInput {
+  gt: String
+  gte: String
+  lt: String
+  lte: String
+  ne: String
+  in: [String]
+  nin: [String]
+}
+
+input _idOperatorsFilterUpdateManySectorFundPricingMonthlyInput {
+  gt: String
+  gte: String
+  lt: String
+  lte: String
+  ne: String
+  in: [String]
+  nin: [String]
+}
+
+input _idOperatorsFilterUpdateManySubscriptionInput {
+  gt: String
+  gte: String
+  lt: String
+  lte: String
+  ne: String
+  in: [String]
+  nin: [String]
+}
+
+input _idOperatorsFilterUpdateOneFundComprehensiveInput {
+  gt: String
+  gte: String
+  lt: String
+  lte: String
+  ne: String
+  in: [String]
+  nin: [String]
+}
+
+input _idOperatorsFilterUpdateOneFundInput {
+  gt: String
+  gte: String
+  lt: String
+  lte: String
+  ne: String
+  in: [String]
+  nin: [String]
+}
+
+input _idOperatorsFilterUpdateOneFundPricingMonthlyInput {
+  gt: String
+  gte: String
+  lt: String
+  lte: String
+  ne: String
+  in: [String]
+  nin: [String]
+}
+
+input _idOperatorsFilterUpdateOnePartyInput {
+  gt: MongoID
+  gte: MongoID
+  lt: MongoID
+  lte: MongoID
+  ne: MongoID
+  in: [MongoID]
+  nin: [MongoID]
+}
+
+input _idOperatorsFilterUpdateOnePolicyInput {
+  gt: String
+  gte: String
+  lt: String
+  lte: String
+  ne: String
+  in: [String]
+  nin: [String]
+}
+
+input _idOperatorsFilterUpdateOneRiskProfileLookupInput {
+  gt: String
+  gte: String
+  lt: String
+  lte: String
+  ne: String
+  in: [String]
+  nin: [String]
+}
+
+input _idOperatorsFilterUpdateOneSectorFundPricingInput {
+  gt: String
+  gte: String
+  lt: String
+  lte: String
+  ne: String
+  in: [String]
+  nin: [String]
+}
+
+input _idOperatorsFilterUpdateOneSectorFundPricingMonthlyInput {
+  gt: String
+  gte: String
+  lt: String
+  lte: String
+  ne: String
+  in: [String]
+  nin: [String]
+}
+
+input _idOperatorsFilterUpdateOneSubscriptionInput {
+  gt: String
+  gte: String
+  lt: String
+  lte: String
+  ne: String
+  in: [String]
+  nin: [String]
+}
+
+input CreateManyFundComprehensiveInput {
+  jseFundCode: String
+  fdDescId: String
+  trustNumber: String
+  fundName: String
+  className: String
+  mainFundCode: String
+  principleFundCode: String
+  discoveryFund: Boolean
+  regulatedFund: Boolean
+  currency: String
+  capInd: Boolean
+  sharePortfolioFund: Boolean
+  ageInMonths: String
+  logInDisplay: Boolean
+  discoverySectorCode: String
+  discoverySectorDesc: String
+  aciSectorCode: String
+  aciSectorDesc: String
+  aciSectorGroup: String
+  fundPdfOrder: String
+  structuredFundPerfUrl: String
+  fundFocus: String
+  benchmarkName: String
+  launchDate: Date
+  incomeDistribFreq: String
+  yearlyPerformanceDisclaimer: String
+  historicalRiskCd: String
+  historicalRisk: String
+  historicalReturnCd: String
+  historicalReturn: String
+  sectorRank: String
+  sectorQuartilePct: String
+  sectorRankQuartile: String
+  sectorCount: String
+  world: Boolean
+  ebFund: Boolean
+  ebMapping: String
+  ebFundStatement: String
+  mancoId: String
+  mancoName: String
+  fundManager: [FundComprehensiveFundManagerInput]
+  commentaries: [FundComprehensiveCommentariesInput]
+  fees: [FundComprehensiveFeesInput]
+  performance: [FundComprehensivePerformanceInput]
+  sectorPerformance: [FundComprehensiveSectorPerformanceInput]
+  facts: [FundComprehensiveFactsInput]
+  assetAllocation: [FundComprehensiveAssetAllocationInput]
+  sectorAllocation: [FundComprehensiveSectorAllocationInput]
+  topHoldings: [FundComprehensiveTopHoldingsInput]
+  incomeDistribution: [FundComprehensiveIncomeDistributionInput]
+  cashSplit: [FundComprehensiveCashSplitInput]
+  productAvailable: [FundComprehensiveProductAvailableInput]
+  reg28: JSON
+  fofBreakdown: [FundComprehensiveFofBreakdownInput]
+}
+
+type CreateManyFundComprehensivePayload {
+  """Created document ID"""
+  recordIds: [MongoID]!
+
+  """Created documents"""
+  records: [FundComprehensive]!
+
+  """Count of all documents created"""
+  createCount: Int!
+}
+
+input CreateManyFundInput {
+  fundCode: String
+  principleFundCode: String
+  mainFundCode: String
+  isinCode: String
+  trustNumber: Float
+  longName: String
+  className: String
+  currency: String
+  discoveryFund: String
+  fundCap: String
+  specialCap: String
+  regulatedFund: String
+  principleClass: String
+  webDisplay: String
+  sharePortfolioFund: String
+  aciSectorCode: String
+  aciSectorGroup: String
+  assetManager: String
+  discoverySectorCode: String
+  discoverySectorDesc: String
+  ageInMonths: String
+  assetAllocations: [FundAssetAllocationsInput]
+}
+
+type CreateManyFundPayload {
+  """Created document ID"""
+  recordIds: [MongoID]!
+
+  """Created documents"""
+  records: [Fund]!
+
+  """Count of all documents created"""
+  createCount: Int!
+}
+
+input CreateManyFundPricingMonthlyInput {
+  jseFundCode: String
+  monthlyReturns: Float
+}
+
+type CreateManyFundPricingMonthlyPayload {
+  """Created document ID"""
+  recordIds: [MongoID]!
+
+  """Created documents"""
+  records: [FundPricingMonthly]!
+
+  """Count of all documents created"""
+  createCount: Int!
+}
+
+input CreateManyPartyInput {
+  entityNumber: String
+  firstname: String
+  surname: String
+  dateOfBirth: String
+  gender: String
+  maritalStatus: String
+  contactEmails: [PartyContactEmailsInput]
+  contactNumbers: [PartyContactNumbersInput]
+  legalIdentities: [PartyLegalIdentitiesInput]
+}
+
+type CreateManyPartyPayload {
+  """Created document ID"""
+  recordIds: [MongoID]!
+
+  """Created documents"""
+  records: [Party]!
+
+  """Count of all documents created"""
+  createCount: Int!
+}
+
+input CreateManyPolicyInput {
+  policyNumber: String
+  umbrellaNumber: String
+  commencementDate: Date
+  productCode: String
+  productName: Float
+  ownerEntityNumber: String
+  ownerName: String
+  ownerFirstnames: String
+  ownerSurname: String
+  ownerEntityType: String
+  brokerEntityNumber: String
+  status: String
+  maturityDate: Date
+  groupName: String
+  annualContributionIncrease: String
+  premiumFrequency: String
+  recurringPremium: String
+  totalSinglePremium: String
+  initialContribution: String
+  adhocContribution: String
+  totalContributions: String
+  totalWithdrawals: String
+  fundValue: String
+  maturityValue: String
+  growthRate: String
+  incomeEscalationRate: String
+  reportingCurrency: String
+  extractDate: Date
+  fundAllocation: [MongoID]
+  cessionType: String
+}
+
+type CreateManyPolicyPayload {
+  """Created document ID"""
+  recordIds: [MongoID]!
+
+  """Created documents"""
+  records: [Policy]!
+
+  """Count of all documents created"""
+  createCount: Int!
+}
+
+input CreateManyRiskProfileLookupInput {
+  policyNumber: String
+  product: String
+  productCategory: String
+  riskProfile: String
+  riskProfileCode: String
+  portfolioRiskRatingMin: Float
+  portfolioRiskRatingMax: Float
+  performanceGoal: String
+  inflationPlus: String
+  assetClass: String
+  assetClassCode: String
+  min: Float
+  max: Float
+}
+
+type CreateManyRiskProfileLookupPayload {
+  """Created document ID"""
+  recordIds: [MongoID]!
+
+  """Created documents"""
+  records: [RiskProfileLookup]!
+
+  """Count of all documents created"""
+  createCount: Int!
+}
+
+input CreateManySectorFundPricingInput {
+  aciSectorCode: String
+  triPrice: Float
+  pricedDt: Date
+  avgReturn: Float
+}
+
+input CreateManySectorFundPricingMonthlyInput {
+  aciSectorCode: String
+  monthlyReturns: Float
+}
+
+type CreateManySectorFundPricingMonthlyPayload {
+  """Created document ID"""
+  recordIds: [MongoID]!
+
+  """Created documents"""
+  records: [SectorFundPricingMonthly]!
+
+  """Count of all documents created"""
+  createCount: Int!
+}
+
+type CreateManySectorFundPricingPayload {
+  """Created document ID"""
+  recordIds: [MongoID]!
+
+  """Created documents"""
+  records: [SectorFundPricing]!
+
+  """Count of all documents created"""
+  createCount: Int!
+}
+
+input CreateManySubscriptionInput {
+  entityNumber: String
+  percentage: Float
+  amount: Float
+  role: String
+  relationship: String
+  policyNumber: String
+  policyOwnerEntityNumber: String
+  productName: String
+  productTypeCode: String
+  policyCommencementDate: Date
+  effectiveDate: Date
+}
+
+type CreateManySubscriptionPayload {
+  """Created document ID"""
+  recordIds: [MongoID]!
+
+  """Created documents"""
+  records: [Subscription]!
+
+  """Count of all documents created"""
+  createCount: Int!
+}
+
+input CreateOneFundComprehensiveInput {
+  jseFundCode: String
+  fdDescId: String
+  trustNumber: String
+  fundName: String
+  className: String
+  mainFundCode: String
+  principleFundCode: String
+  discoveryFund: Boolean
+  regulatedFund: Boolean
+  currency: String
+  capInd: Boolean
+  sharePortfolioFund: Boolean
+  ageInMonths: String
+  logInDisplay: Boolean
+  discoverySectorCode: String
+  discoverySectorDesc: String
+  aciSectorCode: String
+  aciSectorDesc: String
+  aciSectorGroup: String
+  fundPdfOrder: String
+  structuredFundPerfUrl: String
+  fundFocus: String
+  benchmarkName: String
+  launchDate: Date
+  incomeDistribFreq: String
+  yearlyPerformanceDisclaimer: String
+  historicalRiskCd: String
+  historicalRisk: String
+  historicalReturnCd: String
+  historicalReturn: String
+  sectorRank: String
+  sectorQuartilePct: String
+  sectorRankQuartile: String
+  sectorCount: String
+  world: Boolean
+  ebFund: Boolean
+  ebMapping: String
+  ebFundStatement: String
+  mancoId: String
+  mancoName: String
+  fundManager: [FundComprehensiveFundManagerInput]
+  commentaries: [FundComprehensiveCommentariesInput]
+  fees: [FundComprehensiveFeesInput]
+  performance: [FundComprehensivePerformanceInput]
+  sectorPerformance: [FundComprehensiveSectorPerformanceInput]
+  facts: [FundComprehensiveFactsInput]
+  assetAllocation: [FundComprehensiveAssetAllocationInput]
+  sectorAllocation: [FundComprehensiveSectorAllocationInput]
+  topHoldings: [FundComprehensiveTopHoldingsInput]
+  incomeDistribution: [FundComprehensiveIncomeDistributionInput]
+  cashSplit: [FundComprehensiveCashSplitInput]
+  productAvailable: [FundComprehensiveProductAvailableInput]
+  reg28: JSON
+  fofBreakdown: [FundComprehensiveFofBreakdownInput]
+}
+
+type CreateOneFundComprehensivePayload {
+  """Created document ID"""
+  recordId: MongoID
+
+  """Created document"""
+  record: FundComprehensive
+}
+
+input CreateOneFundInput {
+  fundCode: String
+  principleFundCode: String
+  mainFundCode: String
+  isinCode: String
+  trustNumber: Float
+  longName: String
+  className: String
+  currency: String
+  discoveryFund: String
+  fundCap: String
+  specialCap: String
+  regulatedFund: String
+  principleClass: String
+  webDisplay: String
+  sharePortfolioFund: String
+  aciSectorCode: String
+  aciSectorGroup: String
+  assetManager: String
+  discoverySectorCode: String
+  discoverySectorDesc: String
+  ageInMonths: String
+  assetAllocations: [FundAssetAllocationsInput]
+}
+
+type CreateOneFundPayload {
+  """Created document ID"""
+  recordId: MongoID
+
+  """Created document"""
+  record: Fund
+}
+
+input CreateOneFundPricingMonthlyInput {
+  jseFundCode: String
+  monthlyReturns: Float
+}
+
+type CreateOneFundPricingMonthlyPayload {
+  """Created document ID"""
+  recordId: MongoID
+
+  """Created document"""
+  record: FundPricingMonthly
+}
+
+input CreateOnePartyInput {
+  entityNumber: String
+  firstname: String
+  surname: String
+  dateOfBirth: String
+  gender: String
+  maritalStatus: String
+  contactEmails: [PartyContactEmailsInput]
+  contactNumbers: [PartyContactNumbersInput]
+  legalIdentities: [PartyLegalIdentitiesInput]
+}
+
+type CreateOnePartyPayload {
+  """Created document ID"""
+  recordId: MongoID
+
+  """Created document"""
+  record: Party
+}
+
+input CreateOnePolicyInput {
+  policyNumber: String
+  umbrellaNumber: String
+  commencementDate: Date
+  productCode: String
+  productName: Float
+  ownerEntityNumber: String
+  ownerName: String
+  ownerFirstnames: String
+  ownerSurname: String
+  ownerEntityType: String
+  brokerEntityNumber: String
+  status: String
+  maturityDate: Date
+  groupName: String
+  annualContributionIncrease: String
+  premiumFrequency: String
+  recurringPremium: String
+  totalSinglePremium: String
+  initialContribution: String
+  adhocContribution: String
+  totalContributions: String
+  totalWithdrawals: String
+  fundValue: String
+  maturityValue: String
+  growthRate: String
+  incomeEscalationRate: String
+  reportingCurrency: String
+  extractDate: Date
+  fundAllocation: [MongoID]
+  cessionType: String
+}
+
+type CreateOnePolicyPayload {
+  """Created document ID"""
+  recordId: MongoID
+
+  """Created document"""
+  record: Policy
+}
+
+input CreateOneRiskProfileLookupInput {
+  policyNumber: String
+  product: String
+  productCategory: String
+  riskProfile: String
+  riskProfileCode: String
+  portfolioRiskRatingMin: Float
+  portfolioRiskRatingMax: Float
+  performanceGoal: String
+  inflationPlus: String
+  assetClass: String
+  assetClassCode: String
+  min: Float
+  max: Float
+}
+
+type CreateOneRiskProfileLookupPayload {
+  """Created document ID"""
+  recordId: MongoID
+
+  """Created document"""
+  record: RiskProfileLookup
+}
+
+input CreateOneSectorFundPricingInput {
+  aciSectorCode: String
+  triPrice: Float
+  pricedDt: Date
+  avgReturn: Float
+}
+
+input CreateOneSectorFundPricingMonthlyInput {
+  aciSectorCode: String
+  monthlyReturns: Float
+}
+
+type CreateOneSectorFundPricingMonthlyPayload {
+  """Created document ID"""
+  recordId: MongoID
+
+  """Created document"""
+  record: SectorFundPricingMonthly
+}
+
+type CreateOneSectorFundPricingPayload {
+  """Created document ID"""
+  recordId: MongoID
+
+  """Created document"""
+  record: SectorFundPricing
+}
+
+input CreateOneSubscriptionInput {
+  entityNumber: String
+  percentage: Float
+  amount: Float
+  role: String
+  relationship: String
+  policyNumber: String
+  policyOwnerEntityNumber: String
+  productName: String
+  productTypeCode: String
+  policyCommencementDate: Date
+  effectiveDate: Date
+}
+
+type CreateOneSubscriptionPayload {
+  """Created document ID"""
+  recordId: MongoID
+
+  """Created document"""
+  record: Subscription
+}
+
+scalar Date
+
+input FilterFindManyFundComprehensiveInput {
+  _id: String
+  jseFundCode: String
+  fdDescId: String
+  trustNumber: String
+  fundName: String
+  className: String
+  mainFundCode: String
+  principleFundCode: String
+  discoveryFund: Boolean
+  regulatedFund: Boolean
+  currency: String
+  capInd: Boolean
+  sharePortfolioFund: Boolean
+  ageInMonths: String
+  logInDisplay: Boolean
+  discoverySectorCode: String
+  discoverySectorDesc: String
+  aciSectorCode: String
+  aciSectorDesc: String
+  aciSectorGroup: String
+  fundPdfOrder: String
+  structuredFundPerfUrl: String
+  fundFocus: String
+  benchmarkName: String
+  launchDate: Date
+  incomeDistribFreq: String
+  yearlyPerformanceDisclaimer: String
+  historicalRiskCd: String
+  historicalRisk: String
+  historicalReturnCd: String
+  historicalReturn: String
+  sectorRank: String
+  sectorQuartilePct: String
+  sectorRankQuartile: String
+  sectorCount: String
+  world: Boolean
+  ebFund: Boolean
+  ebMapping: String
+  ebFundStatement: String
+  mancoId: String
+  mancoName: String
+  fundManager: [FundComprehensiveFundManagerInput]
+  commentaries: [FundComprehensiveCommentariesInput]
+  fees: [FundComprehensiveFeesInput]
+  performance: [FundComprehensivePerformanceInput]
+  sectorPerformance: [FundComprehensiveSectorPerformanceInput]
+  facts: [FundComprehensiveFactsInput]
+  assetAllocation: [FundComprehensiveAssetAllocationInput]
+  sectorAllocation: [FundComprehensiveSectorAllocationInput]
+  topHoldings: [FundComprehensiveTopHoldingsInput]
+  incomeDistribution: [FundComprehensiveIncomeDistributionInput]
+  cashSplit: [FundComprehensiveCashSplitInput]
+  productAvailable: [FundComprehensiveProductAvailableInput]
+  reg28: JSON
+  fofBreakdown: [FundComprehensiveFofBreakdownInput]
+  _ids: [MongoID]
+
+  """List of *indexed* fields that can be filtered via operators."""
+  _operators: OperatorsFilterFindManyFundComprehensiveInput
+  OR: [FilterFindManyFundComprehensiveInput!]
+  AND: [FilterFindManyFundComprehensiveInput!]
+}
+
+input FilterFindManyFundInput {
+  _id: String
+  fundCode: String
+  principleFundCode: String
+  mainFundCode: String
+  isinCode: String
+  trustNumber: Float
+  longName: String
+  className: String
+  currency: String
+  discoveryFund: String
+  fundCap: String
+  specialCap: String
+  regulatedFund: String
+  principleClass: String
+  webDisplay: String
+  sharePortfolioFund: String
+  aciSectorCode: String
+  aciSectorGroup: String
+  assetManager: String
+  discoverySectorCode: String
+  discoverySectorDesc: String
+  ageInMonths: String
+  assetAllocations: [FundAssetAllocationsInput]
+  _ids: [MongoID]
+
+  """List of *indexed* fields that can be filtered via operators."""
+  _operators: OperatorsFilterFindManyFundInput
+  OR: [FilterFindManyFundInput!]
+  AND: [FilterFindManyFundInput!]
+}
+
+input FilterFindManyFundPricingMonthlyInput {
+  _id: String
+  jseFundCode: String
+  monthlyReturns: Float
+  _ids: [MongoID]
+
+  """List of *indexed* fields that can be filtered via operators."""
+  _operators: OperatorsFilterFindManyFundPricingMonthlyInput
+  OR: [FilterFindManyFundPricingMonthlyInput!]
+  AND: [FilterFindManyFundPricingMonthlyInput!]
+}
+
+input FilterFindManyPartyInput {
+  entityNumber: String
+  firstname: String
+  surname: String
+  dateOfBirth: String
+  gender: String
+  maritalStatus: String
+  contactEmails: [PartyContactEmailsInput]
+  contactNumbers: [PartyContactNumbersInput]
+  legalIdentities: [PartyLegalIdentitiesInput]
+  _id: MongoID
+  _ids: [MongoID]
+
+  """List of *indexed* fields that can be filtered via operators."""
+  _operators: OperatorsFilterFindManyPartyInput
+  OR: [FilterFindManyPartyInput!]
+  AND: [FilterFindManyPartyInput!]
+}
+
+input FilterFindManyPolicyInput {
+  _id: String
+  policyNumber: String
+  umbrellaNumber: String
+  commencementDate: Date
+  productCode: String
+  productName: Float
+  ownerEntityNumber: String
+  ownerName: String
+  ownerFirstnames: String
+  ownerSurname: String
+  ownerEntityType: String
+  brokerEntityNumber: String
+  status: String
+  maturityDate: Date
+  groupName: String
+  annualContributionIncrease: String
+  premiumFrequency: String
+  recurringPremium: String
+  totalSinglePremium: String
+  initialContribution: String
+  adhocContribution: String
+  totalContributions: String
+  totalWithdrawals: String
+  fundValue: String
+  maturityValue: String
+  growthRate: String
+  incomeEscalationRate: String
+  reportingCurrency: String
+  extractDate: Date
+  fundAllocation: [MongoID]
+  cessionType: String
+  _ids: [MongoID]
+
+  """List of *indexed* fields that can be filtered via operators."""
+  _operators: OperatorsFilterFindManyPolicyInput
+  OR: [FilterFindManyPolicyInput!]
+  AND: [FilterFindManyPolicyInput!]
+}
+
+input FilterFindManyRiskProfileLookupInput {
+  _id: String
+  policyNumber: String
+  product: String
+  productCategory: String
+  riskProfile: String
+  riskProfileCode: String
+  portfolioRiskRatingMin: Float
+  portfolioRiskRatingMax: Float
+  performanceGoal: String
+  inflationPlus: String
+  assetClass: String
+  assetClassCode: String
+  min: Float
+  max: Float
+  _ids: [MongoID]
+
+  """List of *indexed* fields that can be filtered via operators."""
+  _operators: OperatorsFilterFindManyRiskProfileLookupInput
+  OR: [FilterFindManyRiskProfileLookupInput!]
+  AND: [FilterFindManyRiskProfileLookupInput!]
+}
+
+input FilterFindManySectorFundPricingInput {
+  _id: String
+  aciSectorCode: String
+  triPrice: Float
+  pricedDt: Date
+  avgReturn: Float
+  _ids: [MongoID]
+
+  """List of *indexed* fields that can be filtered via operators."""
+  _operators: OperatorsFilterFindManySectorFundPricingInput
+  OR: [FilterFindManySectorFundPricingInput!]
+  AND: [FilterFindManySectorFundPricingInput!]
+}
+
+input FilterFindManySectorFundPricingMonthlyInput {
+  _id: String
+  aciSectorCode: String
+  monthlyReturns: Float
+  _ids: [MongoID]
+
+  """List of *indexed* fields that can be filtered via operators."""
+  _operators: OperatorsFilterFindManySectorFundPricingMonthlyInput
+  OR: [FilterFindManySectorFundPricingMonthlyInput!]
+  AND: [FilterFindManySectorFundPricingMonthlyInput!]
+}
+
+input FilterFindManySubscriptionInput {
+  _id: String
+  entityNumber: String
+  percentage: Float
+  amount: Float
+  role: String
+  relationship: String
+  policyNumber: String
+  policyOwnerEntityNumber: String
+  productName: String
+  productTypeCode: String
+  policyCommencementDate: Date
+  effectiveDate: Date
+  _ids: [MongoID]
+
+  """List of *indexed* fields that can be filtered via operators."""
+  _operators: OperatorsFilterFindManySubscriptionInput
+  OR: [FilterFindManySubscriptionInput!]
+  AND: [FilterFindManySubscriptionInput!]
+}
+
+input FilterFindOneFundComprehensiveInput {
+  _id: String
+  jseFundCode: String
+  fdDescId: String
+  trustNumber: String
+  fundName: String
+  className: String
+  mainFundCode: String
+  principleFundCode: String
+  discoveryFund: Boolean
+  regulatedFund: Boolean
+  currency: String
+  capInd: Boolean
+  sharePortfolioFund: Boolean
+  ageInMonths: String
+  logInDisplay: Boolean
+  discoverySectorCode: String
+  discoverySectorDesc: String
+  aciSectorCode: String
+  aciSectorDesc: String
+  aciSectorGroup: String
+  fundPdfOrder: String
+  structuredFundPerfUrl: String
+  fundFocus: String
+  benchmarkName: String
+  launchDate: Date
+  incomeDistribFreq: String
+  yearlyPerformanceDisclaimer: String
+  historicalRiskCd: String
+  historicalRisk: String
+  historicalReturnCd: String
+  historicalReturn: String
+  sectorRank: String
+  sectorQuartilePct: String
+  sectorRankQuartile: String
+  sectorCount: String
+  world: Boolean
+  ebFund: Boolean
+  ebMapping: String
+  ebFundStatement: String
+  mancoId: String
+  mancoName: String
+  fundManager: [FundComprehensiveFundManagerInput]
+  commentaries: [FundComprehensiveCommentariesInput]
+  fees: [FundComprehensiveFeesInput]
+  performance: [FundComprehensivePerformanceInput]
+  sectorPerformance: [FundComprehensiveSectorPerformanceInput]
+  facts: [FundComprehensiveFactsInput]
+  assetAllocation: [FundComprehensiveAssetAllocationInput]
+  sectorAllocation: [FundComprehensiveSectorAllocationInput]
+  topHoldings: [FundComprehensiveTopHoldingsInput]
+  incomeDistribution: [FundComprehensiveIncomeDistributionInput]
+  cashSplit: [FundComprehensiveCashSplitInput]
+  productAvailable: [FundComprehensiveProductAvailableInput]
+  reg28: JSON
+  fofBreakdown: [FundComprehensiveFofBreakdownInput]
+  _ids: [MongoID]
+
+  """List of *indexed* fields that can be filtered via operators."""
+  _operators: OperatorsFilterFindOneFundComprehensiveInput
+  OR: [FilterFindOneFundComprehensiveInput!]
+  AND: [FilterFindOneFundComprehensiveInput!]
+}
+
+input FilterFindOneFundInput {
+  _id: String
+  fundCode: String
+  principleFundCode: String
+  mainFundCode: String
+  isinCode: String
+  trustNumber: Float
+  longName: String
+  className: String
+  currency: String
+  discoveryFund: String
+  fundCap: String
+  specialCap: String
+  regulatedFund: String
+  principleClass: String
+  webDisplay: String
+  sharePortfolioFund: String
+  aciSectorCode: String
+  aciSectorGroup: String
+  assetManager: String
+  discoverySectorCode: String
+  discoverySectorDesc: String
+  ageInMonths: String
+  assetAllocations: [FundAssetAllocationsInput]
+  _ids: [MongoID]
+
+  """List of *indexed* fields that can be filtered via operators."""
+  _operators: OperatorsFilterFindOneFundInput
+  OR: [FilterFindOneFundInput!]
+  AND: [FilterFindOneFundInput!]
+}
+
+input FilterFindOneFundPricingMonthlyInput {
+  _id: String
+  jseFundCode: String
+  monthlyReturns: Float
+  _ids: [MongoID]
+
+  """List of *indexed* fields that can be filtered via operators."""
+  _operators: OperatorsFilterFindOneFundPricingMonthlyInput
+  OR: [FilterFindOneFundPricingMonthlyInput!]
+  AND: [FilterFindOneFundPricingMonthlyInput!]
+}
+
+input FilterFindOnePartyInput {
+  entityNumber: String
+  firstname: String
+  surname: String
+  dateOfBirth: String
+  gender: String
+  maritalStatus: String
+  contactEmails: [PartyContactEmailsInput]
+  contactNumbers: [PartyContactNumbersInput]
+  legalIdentities: [PartyLegalIdentitiesInput]
+  _id: MongoID
+  _ids: [MongoID]
+
+  """List of *indexed* fields that can be filtered via operators."""
+  _operators: OperatorsFilterFindOnePartyInput
+  OR: [FilterFindOnePartyInput!]
+  AND: [FilterFindOnePartyInput!]
+}
+
+input FilterFindOnePolicyInput {
+  _id: String
+  policyNumber: String
+  umbrellaNumber: String
+  commencementDate: Date
+  productCode: String
+  productName: Float
+  ownerEntityNumber: String
+  ownerName: String
+  ownerFirstnames: String
+  ownerSurname: String
+  ownerEntityType: String
+  brokerEntityNumber: String
+  status: String
+  maturityDate: Date
+  groupName: String
+  annualContributionIncrease: String
+  premiumFrequency: String
+  recurringPremium: String
+  totalSinglePremium: String
+  initialContribution: String
+  adhocContribution: String
+  totalContributions: String
+  totalWithdrawals: String
+  fundValue: String
+  maturityValue: String
+  growthRate: String
+  incomeEscalationRate: String
+  reportingCurrency: String
+  extractDate: Date
+  fundAllocation: [MongoID]
+  cessionType: String
+  _ids: [MongoID]
+
+  """List of *indexed* fields that can be filtered via operators."""
+  _operators: OperatorsFilterFindOnePolicyInput
+  OR: [FilterFindOnePolicyInput!]
+  AND: [FilterFindOnePolicyInput!]
+}
+
+input FilterFindOneRiskProfileLookupInput {
+  _id: String
+  policyNumber: String
+  product: String
+  productCategory: String
+  riskProfile: String
+  riskProfileCode: String
+  portfolioRiskRatingMin: Float
+  portfolioRiskRatingMax: Float
+  performanceGoal: String
+  inflationPlus: String
+  assetClass: String
+  assetClassCode: String
+  min: Float
+  max: Float
+  _ids: [MongoID]
+
+  """List of *indexed* fields that can be filtered via operators."""
+  _operators: OperatorsFilterFindOneRiskProfileLookupInput
+  OR: [FilterFindOneRiskProfileLookupInput!]
+  AND: [FilterFindOneRiskProfileLookupInput!]
+}
+
+input FilterFindOneSectorFundPricingInput {
+  _id: String
+  aciSectorCode: String
+  triPrice: Float
+  pricedDt: Date
+  avgReturn: Float
+  _ids: [MongoID]
+
+  """List of *indexed* fields that can be filtered via operators."""
+  _operators: OperatorsFilterFindOneSectorFundPricingInput
+  OR: [FilterFindOneSectorFundPricingInput!]
+  AND: [FilterFindOneSectorFundPricingInput!]
+}
+
+input FilterFindOneSectorFundPricingMonthlyInput {
+  _id: String
+  aciSectorCode: String
+  monthlyReturns: Float
+  _ids: [MongoID]
+
+  """List of *indexed* fields that can be filtered via operators."""
+  _operators: OperatorsFilterFindOneSectorFundPricingMonthlyInput
+  OR: [FilterFindOneSectorFundPricingMonthlyInput!]
+  AND: [FilterFindOneSectorFundPricingMonthlyInput!]
+}
+
+input FilterFindOneSubscriptionInput {
+  _id: String
+  entityNumber: String
+  percentage: Float
+  amount: Float
+  role: String
+  relationship: String
+  policyNumber: String
+  policyOwnerEntityNumber: String
+  productName: String
+  productTypeCode: String
+  policyCommencementDate: Date
+  effectiveDate: Date
+  _ids: [MongoID]
+
+  """List of *indexed* fields that can be filtered via operators."""
+  _operators: OperatorsFilterFindOneSubscriptionInput
+  OR: [FilterFindOneSubscriptionInput!]
+  AND: [FilterFindOneSubscriptionInput!]
+}
+
+input FilterFundComprehensiveInput {
+  _id: String
+  jseFundCode: String
+  fdDescId: String
+  trustNumber: String
+  fundName: String
+  className: String
+  mainFundCode: String
+  principleFundCode: String
+  discoveryFund: Boolean
+  regulatedFund: Boolean
+  currency: String
+  capInd: Boolean
+  sharePortfolioFund: Boolean
+  ageInMonths: String
+  logInDisplay: Boolean
+  discoverySectorCode: String
+  discoverySectorDesc: String
+  aciSectorCode: String
+  aciSectorDesc: String
+  aciSectorGroup: String
+  fundPdfOrder: String
+  structuredFundPerfUrl: String
+  fundFocus: String
+  benchmarkName: String
+  launchDate: Date
+  incomeDistribFreq: String
+  yearlyPerformanceDisclaimer: String
+  historicalRiskCd: String
+  historicalRisk: String
+  historicalReturnCd: String
+  historicalReturn: String
+  sectorRank: String
+  sectorQuartilePct: String
+  sectorRankQuartile: String
+  sectorCount: String
+  world: Boolean
+  ebFund: Boolean
+  ebMapping: String
+  ebFundStatement: String
+  mancoId: String
+  mancoName: String
+  fundManager: [FundComprehensiveFundManagerInput]
+  commentaries: [FundComprehensiveCommentariesInput]
+  fees: [FundComprehensiveFeesInput]
+  performance: [FundComprehensivePerformanceInput]
+  sectorPerformance: [FundComprehensiveSectorPerformanceInput]
+  facts: [FundComprehensiveFactsInput]
+  assetAllocation: [FundComprehensiveAssetAllocationInput]
+  sectorAllocation: [FundComprehensiveSectorAllocationInput]
+  topHoldings: [FundComprehensiveTopHoldingsInput]
+  incomeDistribution: [FundComprehensiveIncomeDistributionInput]
+  cashSplit: [FundComprehensiveCashSplitInput]
+  productAvailable: [FundComprehensiveProductAvailableInput]
+  reg28: JSON
+  fofBreakdown: [FundComprehensiveFofBreakdownInput]
+  _ids: [MongoID]
+
+  """List of *indexed* fields that can be filtered via operators."""
+  _operators: OperatorsFilterFundComprehensiveInput
+  OR: [FilterFundComprehensiveInput!]
+  AND: [FilterFundComprehensiveInput!]
+}
+
+input FilterFundInput {
+  _id: String
+  fundCode: String
+  principleFundCode: String
+  mainFundCode: String
+  isinCode: String
+  trustNumber: Float
+  longName: String
+  className: String
+  currency: String
+  discoveryFund: String
+  fundCap: String
+  specialCap: String
+  regulatedFund: String
+  principleClass: String
+  webDisplay: String
+  sharePortfolioFund: String
+  aciSectorCode: String
+  aciSectorGroup: String
+  assetManager: String
+  discoverySectorCode: String
+  discoverySectorDesc: String
+  ageInMonths: String
+  assetAllocations: [FundAssetAllocationsInput]
+  _ids: [MongoID]
+
+  """List of *indexed* fields that can be filtered via operators."""
+  _operators: OperatorsFilterFundInput
+  OR: [FilterFundInput!]
+  AND: [FilterFundInput!]
+}
+
+input FilterFundPricingMonthlyInput {
+  _id: String
+  jseFundCode: String
+  monthlyReturns: Float
+  _ids: [MongoID]
+
+  """List of *indexed* fields that can be filtered via operators."""
+  _operators: OperatorsFilterFundPricingMonthlyInput
+  OR: [FilterFundPricingMonthlyInput!]
+  AND: [FilterFundPricingMonthlyInput!]
+}
+
+input FilterPartyInput {
+  entityNumber: String
+  firstname: String
+  surname: String
+  dateOfBirth: String
+  gender: String
+  maritalStatus: String
+  contactEmails: [PartyContactEmailsInput]
+  contactNumbers: [PartyContactNumbersInput]
+  legalIdentities: [PartyLegalIdentitiesInput]
+  _id: MongoID
+  _ids: [MongoID]
+
+  """List of *indexed* fields that can be filtered via operators."""
+  _operators: OperatorsFilterPartyInput
+  OR: [FilterPartyInput!]
+  AND: [FilterPartyInput!]
+}
+
+input FilterPolicyInput {
+  _id: String
+  policyNumber: String
+  umbrellaNumber: String
+  commencementDate: Date
+  productCode: String
+  productName: Float
+  ownerEntityNumber: String
+  ownerName: String
+  ownerFirstnames: String
+  ownerSurname: String
+  ownerEntityType: String
+  brokerEntityNumber: String
+  status: String
+  maturityDate: Date
+  groupName: String
+  annualContributionIncrease: String
+  premiumFrequency: String
+  recurringPremium: String
+  totalSinglePremium: String
+  initialContribution: String
+  adhocContribution: String
+  totalContributions: String
+  totalWithdrawals: String
+  fundValue: String
+  maturityValue: String
+  growthRate: String
+  incomeEscalationRate: String
+  reportingCurrency: String
+  extractDate: Date
+  fundAllocation: [MongoID]
+  cessionType: String
+  _ids: [MongoID]
+
+  """List of *indexed* fields that can be filtered via operators."""
+  _operators: OperatorsFilterPolicyInput
+  OR: [FilterPolicyInput!]
+  AND: [FilterPolicyInput!]
+}
+
+input FilterRemoveManyFundComprehensiveInput {
+  _id: String
+  jseFundCode: String
+  fdDescId: String
+  trustNumber: String
+  fundName: String
+  className: String
+  mainFundCode: String
+  principleFundCode: String
+  discoveryFund: Boolean
+  regulatedFund: Boolean
+  currency: String
+  capInd: Boolean
+  sharePortfolioFund: Boolean
+  ageInMonths: String
+  logInDisplay: Boolean
+  discoverySectorCode: String
+  discoverySectorDesc: String
+  aciSectorCode: String
+  aciSectorDesc: String
+  aciSectorGroup: String
+  fundPdfOrder: String
+  structuredFundPerfUrl: String
+  fundFocus: String
+  benchmarkName: String
+  launchDate: Date
+  incomeDistribFreq: String
+  yearlyPerformanceDisclaimer: String
+  historicalRiskCd: String
+  historicalRisk: String
+  historicalReturnCd: String
+  historicalReturn: String
+  sectorRank: String
+  sectorQuartilePct: String
+  sectorRankQuartile: String
+  sectorCount: String
+  world: Boolean
+  ebFund: Boolean
+  ebMapping: String
+  ebFundStatement: String
+  mancoId: String
+  mancoName: String
+  fundManager: [FundComprehensiveFundManagerInput]
+  commentaries: [FundComprehensiveCommentariesInput]
+  fees: [FundComprehensiveFeesInput]
+  performance: [FundComprehensivePerformanceInput]
+  sectorPerformance: [FundComprehensiveSectorPerformanceInput]
+  facts: [FundComprehensiveFactsInput]
+  assetAllocation: [FundComprehensiveAssetAllocationInput]
+  sectorAllocation: [FundComprehensiveSectorAllocationInput]
+  topHoldings: [FundComprehensiveTopHoldingsInput]
+  incomeDistribution: [FundComprehensiveIncomeDistributionInput]
+  cashSplit: [FundComprehensiveCashSplitInput]
+  productAvailable: [FundComprehensiveProductAvailableInput]
+  reg28: JSON
+  fofBreakdown: [FundComprehensiveFofBreakdownInput]
+  _ids: [MongoID]
+
+  """List of *indexed* fields that can be filtered via operators."""
+  _operators: OperatorsFilterRemoveManyFundComprehensiveInput
+  OR: [FilterRemoveManyFundComprehensiveInput!]
+  AND: [FilterRemoveManyFundComprehensiveInput!]
+}
+
+input FilterRemoveManyFundInput {
+  _id: String
+  fundCode: String
+  principleFundCode: String
+  mainFundCode: String
+  isinCode: String
+  trustNumber: Float
+  longName: String
+  className: String
+  currency: String
+  discoveryFund: String
+  fundCap: String
+  specialCap: String
+  regulatedFund: String
+  principleClass: String
+  webDisplay: String
+  sharePortfolioFund: String
+  aciSectorCode: String
+  aciSectorGroup: String
+  assetManager: String
+  discoverySectorCode: String
+  discoverySectorDesc: String
+  ageInMonths: String
+  assetAllocations: [FundAssetAllocationsInput]
+  _ids: [MongoID]
+
+  """List of *indexed* fields that can be filtered via operators."""
+  _operators: OperatorsFilterRemoveManyFundInput
+  OR: [FilterRemoveManyFundInput!]
+  AND: [FilterRemoveManyFundInput!]
+}
+
+input FilterRemoveManyFundPricingMonthlyInput {
+  _id: String
+  jseFundCode: String
+  monthlyReturns: Float
+  _ids: [MongoID]
+
+  """List of *indexed* fields that can be filtered via operators."""
+  _operators: OperatorsFilterRemoveManyFundPricingMonthlyInput
+  OR: [FilterRemoveManyFundPricingMonthlyInput!]
+  AND: [FilterRemoveManyFundPricingMonthlyInput!]
+}
+
+input FilterRemoveManyPartyInput {
+  entityNumber: String
+  firstname: String
+  surname: String
+  dateOfBirth: String
+  gender: String
+  maritalStatus: String
+  contactEmails: [PartyContactEmailsInput]
+  contactNumbers: [PartyContactNumbersInput]
+  legalIdentities: [PartyLegalIdentitiesInput]
+  _id: MongoID
+  _ids: [MongoID]
+
+  """List of *indexed* fields that can be filtered via operators."""
+  _operators: OperatorsFilterRemoveManyPartyInput
+  OR: [FilterRemoveManyPartyInput!]
+  AND: [FilterRemoveManyPartyInput!]
+}
+
+input FilterRemoveManyPolicyInput {
+  _id: String
+  policyNumber: String
+  umbrellaNumber: String
+  commencementDate: Date
+  productCode: String
+  productName: Float
+  ownerEntityNumber: String
+  ownerName: String
+  ownerFirstnames: String
+  ownerSurname: String
+  ownerEntityType: String
+  brokerEntityNumber: String
+  status: String
+  maturityDate: Date
+  groupName: String
+  annualContributionIncrease: String
+  premiumFrequency: String
+  recurringPremium: String
+  totalSinglePremium: String
+  initialContribution: String
+  adhocContribution: String
+  totalContributions: String
+  totalWithdrawals: String
+  fundValue: String
+  maturityValue: String
+  growthRate: String
+  incomeEscalationRate: String
+  reportingCurrency: String
+  extractDate: Date
+  fundAllocation: [MongoID]
+  cessionType: String
+  _ids: [MongoID]
+
+  """List of *indexed* fields that can be filtered via operators."""
+  _operators: OperatorsFilterRemoveManyPolicyInput
+  OR: [FilterRemoveManyPolicyInput!]
+  AND: [FilterRemoveManyPolicyInput!]
+}
+
+input FilterRemoveManyRiskProfileLookupInput {
+  _id: String
+  policyNumber: String
+  product: String
+  productCategory: String
+  riskProfile: String
+  riskProfileCode: String
+  portfolioRiskRatingMin: Float
+  portfolioRiskRatingMax: Float
+  performanceGoal: String
+  inflationPlus: String
+  assetClass: String
+  assetClassCode: String
+  min: Float
+  max: Float
+  _ids: [MongoID]
+
+  """List of *indexed* fields that can be filtered via operators."""
+  _operators: OperatorsFilterRemoveManyRiskProfileLookupInput
+  OR: [FilterRemoveManyRiskProfileLookupInput!]
+  AND: [FilterRemoveManyRiskProfileLookupInput!]
+}
+
+input FilterRemoveManySectorFundPricingInput {
+  _id: String
+  aciSectorCode: String
+  triPrice: Float
+  pricedDt: Date
+  avgReturn: Float
+  _ids: [MongoID]
+
+  """List of *indexed* fields that can be filtered via operators."""
+  _operators: OperatorsFilterRemoveManySectorFundPricingInput
+  OR: [FilterRemoveManySectorFundPricingInput!]
+  AND: [FilterRemoveManySectorFundPricingInput!]
+}
+
+input FilterRemoveManySectorFundPricingMonthlyInput {
+  _id: String
+  aciSectorCode: String
+  monthlyReturns: Float
+  _ids: [MongoID]
+
+  """List of *indexed* fields that can be filtered via operators."""
+  _operators: OperatorsFilterRemoveManySectorFundPricingMonthlyInput
+  OR: [FilterRemoveManySectorFundPricingMonthlyInput!]
+  AND: [FilterRemoveManySectorFundPricingMonthlyInput!]
+}
+
+input FilterRemoveManySubscriptionInput {
+  _id: String
+  entityNumber: String
+  percentage: Float
+  amount: Float
+  role: String
+  relationship: String
+  policyNumber: String
+  policyOwnerEntityNumber: String
+  productName: String
+  productTypeCode: String
+  policyCommencementDate: Date
+  effectiveDate: Date
+  _ids: [MongoID]
+
+  """List of *indexed* fields that can be filtered via operators."""
+  _operators: OperatorsFilterRemoveManySubscriptionInput
+  OR: [FilterRemoveManySubscriptionInput!]
+  AND: [FilterRemoveManySubscriptionInput!]
+}
+
+input FilterRemoveOneFundComprehensiveInput {
+  _id: String
+  jseFundCode: String
+  fdDescId: String
+  trustNumber: String
+  fundName: String
+  className: String
+  mainFundCode: String
+  principleFundCode: String
+  discoveryFund: Boolean
+  regulatedFund: Boolean
+  currency: String
+  capInd: Boolean
+  sharePortfolioFund: Boolean
+  ageInMonths: String
+  logInDisplay: Boolean
+  discoverySectorCode: String
+  discoverySectorDesc: String
+  aciSectorCode: String
+  aciSectorDesc: String
+  aciSectorGroup: String
+  fundPdfOrder: String
+  structuredFundPerfUrl: String
+  fundFocus: String
+  benchmarkName: String
+  launchDate: Date
+  incomeDistribFreq: String
+  yearlyPerformanceDisclaimer: String
+  historicalRiskCd: String
+  historicalRisk: String
+  historicalReturnCd: String
+  historicalReturn: String
+  sectorRank: String
+  sectorQuartilePct: String
+  sectorRankQuartile: String
+  sectorCount: String
+  world: Boolean
+  ebFund: Boolean
+  ebMapping: String
+  ebFundStatement: String
+  mancoId: String
+  mancoName: String
+  fundManager: [FundComprehensiveFundManagerInput]
+  commentaries: [FundComprehensiveCommentariesInput]
+  fees: [FundComprehensiveFeesInput]
+  performance: [FundComprehensivePerformanceInput]
+  sectorPerformance: [FundComprehensiveSectorPerformanceInput]
+  facts: [FundComprehensiveFactsInput]
+  assetAllocation: [FundComprehensiveAssetAllocationInput]
+  sectorAllocation: [FundComprehensiveSectorAllocationInput]
+  topHoldings: [FundComprehensiveTopHoldingsInput]
+  incomeDistribution: [FundComprehensiveIncomeDistributionInput]
+  cashSplit: [FundComprehensiveCashSplitInput]
+  productAvailable: [FundComprehensiveProductAvailableInput]
+  reg28: JSON
+  fofBreakdown: [FundComprehensiveFofBreakdownInput]
+  _ids: [MongoID]
+
+  """List of *indexed* fields that can be filtered via operators."""
+  _operators: OperatorsFilterRemoveOneFundComprehensiveInput
+  OR: [FilterRemoveOneFundComprehensiveInput!]
+  AND: [FilterRemoveOneFundComprehensiveInput!]
+}
+
+input FilterRemoveOneFundInput {
+  _id: String
+  fundCode: String
+  principleFundCode: String
+  mainFundCode: String
+  isinCode: String
+  trustNumber: Float
+  longName: String
+  className: String
+  currency: String
+  discoveryFund: String
+  fundCap: String
+  specialCap: String
+  regulatedFund: String
+  principleClass: String
+  webDisplay: String
+  sharePortfolioFund: String
+  aciSectorCode: String
+  aciSectorGroup: String
+  assetManager: String
+  discoverySectorCode: String
+  discoverySectorDesc: String
+  ageInMonths: String
+  assetAllocations: [FundAssetAllocationsInput]
+  _ids: [MongoID]
+
+  """List of *indexed* fields that can be filtered via operators."""
+  _operators: OperatorsFilterRemoveOneFundInput
+  OR: [FilterRemoveOneFundInput!]
+  AND: [FilterRemoveOneFundInput!]
+}
+
+input FilterRemoveOneFundPricingMonthlyInput {
+  _id: String
+  jseFundCode: String
+  monthlyReturns: Float
+  _ids: [MongoID]
+
+  """List of *indexed* fields that can be filtered via operators."""
+  _operators: OperatorsFilterRemoveOneFundPricingMonthlyInput
+  OR: [FilterRemoveOneFundPricingMonthlyInput!]
+  AND: [FilterRemoveOneFundPricingMonthlyInput!]
+}
+
+input FilterRemoveOnePartyInput {
+  entityNumber: String
+  firstname: String
+  surname: String
+  dateOfBirth: String
+  gender: String
+  maritalStatus: String
+  contactEmails: [PartyContactEmailsInput]
+  contactNumbers: [PartyContactNumbersInput]
+  legalIdentities: [PartyLegalIdentitiesInput]
+  _id: MongoID
+  _ids: [MongoID]
+
+  """List of *indexed* fields that can be filtered via operators."""
+  _operators: OperatorsFilterRemoveOnePartyInput
+  OR: [FilterRemoveOnePartyInput!]
+  AND: [FilterRemoveOnePartyInput!]
+}
+
+input FilterRemoveOnePolicyInput {
+  _id: String
+  policyNumber: String
+  umbrellaNumber: String
+  commencementDate: Date
+  productCode: String
+  productName: Float
+  ownerEntityNumber: String
+  ownerName: String
+  ownerFirstnames: String
+  ownerSurname: String
+  ownerEntityType: String
+  brokerEntityNumber: String
+  status: String
+  maturityDate: Date
+  groupName: String
+  annualContributionIncrease: String
+  premiumFrequency: String
+  recurringPremium: String
+  totalSinglePremium: String
+  initialContribution: String
+  adhocContribution: String
+  totalContributions: String
+  totalWithdrawals: String
+  fundValue: String
+  maturityValue: String
+  growthRate: String
+  incomeEscalationRate: String
+  reportingCurrency: String
+  extractDate: Date
+  fundAllocation: [MongoID]
+  cessionType: String
+  _ids: [MongoID]
+
+  """List of *indexed* fields that can be filtered via operators."""
+  _operators: OperatorsFilterRemoveOnePolicyInput
+  OR: [FilterRemoveOnePolicyInput!]
+  AND: [FilterRemoveOnePolicyInput!]
+}
+
+input FilterRemoveOneRiskProfileLookupInput {
+  _id: String
+  policyNumber: String
+  product: String
+  productCategory: String
+  riskProfile: String
+  riskProfileCode: String
+  portfolioRiskRatingMin: Float
+  portfolioRiskRatingMax: Float
+  performanceGoal: String
+  inflationPlus: String
+  assetClass: String
+  assetClassCode: String
+  min: Float
+  max: Float
+  _ids: [MongoID]
+
+  """List of *indexed* fields that can be filtered via operators."""
+  _operators: OperatorsFilterRemoveOneRiskProfileLookupInput
+  OR: [FilterRemoveOneRiskProfileLookupInput!]
+  AND: [FilterRemoveOneRiskProfileLookupInput!]
+}
+
+input FilterRemoveOneSectorFundPricingInput {
+  _id: String
+  aciSectorCode: String
+  triPrice: Float
+  pricedDt: Date
+  avgReturn: Float
+  _ids: [MongoID]
+
+  """List of *indexed* fields that can be filtered via operators."""
+  _operators: OperatorsFilterRemoveOneSectorFundPricingInput
+  OR: [FilterRemoveOneSectorFundPricingInput!]
+  AND: [FilterRemoveOneSectorFundPricingInput!]
+}
+
+input FilterRemoveOneSectorFundPricingMonthlyInput {
+  _id: String
+  aciSectorCode: String
+  monthlyReturns: Float
+  _ids: [MongoID]
+
+  """List of *indexed* fields that can be filtered via operators."""
+  _operators: OperatorsFilterRemoveOneSectorFundPricingMonthlyInput
+  OR: [FilterRemoveOneSectorFundPricingMonthlyInput!]
+  AND: [FilterRemoveOneSectorFundPricingMonthlyInput!]
+}
+
+input FilterRemoveOneSubscriptionInput {
+  _id: String
+  entityNumber: String
+  percentage: Float
+  amount: Float
+  role: String
+  relationship: String
+  policyNumber: String
+  policyOwnerEntityNumber: String
+  productName: String
+  productTypeCode: String
+  policyCommencementDate: Date
+  effectiveDate: Date
+  _ids: [MongoID]
+
+  """List of *indexed* fields that can be filtered via operators."""
+  _operators: OperatorsFilterRemoveOneSubscriptionInput
+  OR: [FilterRemoveOneSubscriptionInput!]
+  AND: [FilterRemoveOneSubscriptionInput!]
+}
+
+input FilterRiskProfileLookupInput {
+  _id: String
+  policyNumber: String
+  product: String
+  productCategory: String
+  riskProfile: String
+  riskProfileCode: String
+  portfolioRiskRatingMin: Float
+  portfolioRiskRatingMax: Float
+  performanceGoal: String
+  inflationPlus: String
+  assetClass: String
+  assetClassCode: String
+  min: Float
+  max: Float
+  _ids: [MongoID]
+
+  """List of *indexed* fields that can be filtered via operators."""
+  _operators: OperatorsFilterRiskProfileLookupInput
+  OR: [FilterRiskProfileLookupInput!]
+  AND: [FilterRiskProfileLookupInput!]
+}
+
+input FilterSectorFundPricingInput {
+  _id: String
+  aciSectorCode: String
+  triPrice: Float
+  pricedDt: Date
+  avgReturn: Float
+  _ids: [MongoID]
+
+  """List of *indexed* fields that can be filtered via operators."""
+  _operators: OperatorsFilterSectorFundPricingInput
+  OR: [FilterSectorFundPricingInput!]
+  AND: [FilterSectorFundPricingInput!]
+}
+
+input FilterSectorFundPricingMonthlyInput {
+  _id: String
+  aciSectorCode: String
+  monthlyReturns: Float
+  _ids: [MongoID]
+
+  """List of *indexed* fields that can be filtered via operators."""
+  _operators: OperatorsFilterSectorFundPricingMonthlyInput
+  OR: [FilterSectorFundPricingMonthlyInput!]
+  AND: [FilterSectorFundPricingMonthlyInput!]
+}
+
+input FilterSubscriptionInput {
+  _id: String
+  entityNumber: String
+  percentage: Float
+  amount: Float
+  role: String
+  relationship: String
+  policyNumber: String
+  policyOwnerEntityNumber: String
+  productName: String
+  productTypeCode: String
+  policyCommencementDate: Date
+  effectiveDate: Date
+  _ids: [MongoID]
+
+  """List of *indexed* fields that can be filtered via operators."""
+  _operators: OperatorsFilterSubscriptionInput
+  OR: [FilterSubscriptionInput!]
+  AND: [FilterSubscriptionInput!]
+}
+
+input FilterUpdateManyFundComprehensiveInput {
+  _id: String
+  jseFundCode: String
+  fdDescId: String
+  trustNumber: String
+  fundName: String
+  className: String
+  mainFundCode: String
+  principleFundCode: String
+  discoveryFund: Boolean
+  regulatedFund: Boolean
+  currency: String
+  capInd: Boolean
+  sharePortfolioFund: Boolean
+  ageInMonths: String
+  logInDisplay: Boolean
+  discoverySectorCode: String
+  discoverySectorDesc: String
+  aciSectorCode: String
+  aciSectorDesc: String
+  aciSectorGroup: String
+  fundPdfOrder: String
+  structuredFundPerfUrl: String
+  fundFocus: String
+  benchmarkName: String
+  launchDate: Date
+  incomeDistribFreq: String
+  yearlyPerformanceDisclaimer: String
+  historicalRiskCd: String
+  historicalRisk: String
+  historicalReturnCd: String
+  historicalReturn: String
+  sectorRank: String
+  sectorQuartilePct: String
+  sectorRankQuartile: String
+  sectorCount: String
+  world: Boolean
+  ebFund: Boolean
+  ebMapping: String
+  ebFundStatement: String
+  mancoId: String
+  mancoName: String
+  fundManager: [FundComprehensiveFundManagerInput]
+  commentaries: [FundComprehensiveCommentariesInput]
+  fees: [FundComprehensiveFeesInput]
+  performance: [FundComprehensivePerformanceInput]
+  sectorPerformance: [FundComprehensiveSectorPerformanceInput]
+  facts: [FundComprehensiveFactsInput]
+  assetAllocation: [FundComprehensiveAssetAllocationInput]
+  sectorAllocation: [FundComprehensiveSectorAllocationInput]
+  topHoldings: [FundComprehensiveTopHoldingsInput]
+  incomeDistribution: [FundComprehensiveIncomeDistributionInput]
+  cashSplit: [FundComprehensiveCashSplitInput]
+  productAvailable: [FundComprehensiveProductAvailableInput]
+  reg28: JSON
+  fofBreakdown: [FundComprehensiveFofBreakdownInput]
+  _ids: [MongoID]
+
+  """List of *indexed* fields that can be filtered via operators."""
+  _operators: OperatorsFilterUpdateManyFundComprehensiveInput
+  OR: [FilterUpdateManyFundComprehensiveInput!]
+  AND: [FilterUpdateManyFundComprehensiveInput!]
+}
+
+input FilterUpdateManyFundInput {
+  _id: String
+  fundCode: String
+  principleFundCode: String
+  mainFundCode: String
+  isinCode: String
+  trustNumber: Float
+  longName: String
+  className: String
+  currency: String
+  discoveryFund: String
+  fundCap: String
+  specialCap: String
+  regulatedFund: String
+  principleClass: String
+  webDisplay: String
+  sharePortfolioFund: String
+  aciSectorCode: String
+  aciSectorGroup: String
+  assetManager: String
+  discoverySectorCode: String
+  discoverySectorDesc: String
+  ageInMonths: String
+  assetAllocations: [FundAssetAllocationsInput]
+  _ids: [MongoID]
+
+  """List of *indexed* fields that can be filtered via operators."""
+  _operators: OperatorsFilterUpdateManyFundInput
+  OR: [FilterUpdateManyFundInput!]
+  AND: [FilterUpdateManyFundInput!]
+}
+
+input FilterUpdateManyFundPricingMonthlyInput {
+  _id: String
+  jseFundCode: String
+  monthlyReturns: Float
+  _ids: [MongoID]
+
+  """List of *indexed* fields that can be filtered via operators."""
+  _operators: OperatorsFilterUpdateManyFundPricingMonthlyInput
+  OR: [FilterUpdateManyFundPricingMonthlyInput!]
+  AND: [FilterUpdateManyFundPricingMonthlyInput!]
+}
+
+input FilterUpdateManyPartyInput {
+  entityNumber: String
+  firstname: String
+  surname: String
+  dateOfBirth: String
+  gender: String
+  maritalStatus: String
+  contactEmails: [PartyContactEmailsInput]
+  contactNumbers: [PartyContactNumbersInput]
+  legalIdentities: [PartyLegalIdentitiesInput]
+  _id: MongoID
+  _ids: [MongoID]
+
+  """List of *indexed* fields that can be filtered via operators."""
+  _operators: OperatorsFilterUpdateManyPartyInput
+  OR: [FilterUpdateManyPartyInput!]
+  AND: [FilterUpdateManyPartyInput!]
+}
+
+input FilterUpdateManyPolicyInput {
+  _id: String
+  policyNumber: String
+  umbrellaNumber: String
+  commencementDate: Date
+  productCode: String
+  productName: Float
+  ownerEntityNumber: String
+  ownerName: String
+  ownerFirstnames: String
+  ownerSurname: String
+  ownerEntityType: String
+  brokerEntityNumber: String
+  status: String
+  maturityDate: Date
+  groupName: String
+  annualContributionIncrease: String
+  premiumFrequency: String
+  recurringPremium: String
+  totalSinglePremium: String
+  initialContribution: String
+  adhocContribution: String
+  totalContributions: String
+  totalWithdrawals: String
+  fundValue: String
+  maturityValue: String
+  growthRate: String
+  incomeEscalationRate: String
+  reportingCurrency: String
+  extractDate: Date
+  fundAllocation: [MongoID]
+  cessionType: String
+  _ids: [MongoID]
+
+  """List of *indexed* fields that can be filtered via operators."""
+  _operators: OperatorsFilterUpdateManyPolicyInput
+  OR: [FilterUpdateManyPolicyInput!]
+  AND: [FilterUpdateManyPolicyInput!]
+}
+
+input FilterUpdateManyRiskProfileLookupInput {
+  _id: String
+  policyNumber: String
+  product: String
+  productCategory: String
+  riskProfile: String
+  riskProfileCode: String
+  portfolioRiskRatingMin: Float
+  portfolioRiskRatingMax: Float
+  performanceGoal: String
+  inflationPlus: String
+  assetClass: String
+  assetClassCode: String
+  min: Float
+  max: Float
+  _ids: [MongoID]
+
+  """List of *indexed* fields that can be filtered via operators."""
+  _operators: OperatorsFilterUpdateManyRiskProfileLookupInput
+  OR: [FilterUpdateManyRiskProfileLookupInput!]
+  AND: [FilterUpdateManyRiskProfileLookupInput!]
+}
+
+input FilterUpdateManySectorFundPricingInput {
+  _id: String
+  aciSectorCode: String
+  triPrice: Float
+  pricedDt: Date
+  avgReturn: Float
+  _ids: [MongoID]
+
+  """List of *indexed* fields that can be filtered via operators."""
+  _operators: OperatorsFilterUpdateManySectorFundPricingInput
+  OR: [FilterUpdateManySectorFundPricingInput!]
+  AND: [FilterUpdateManySectorFundPricingInput!]
+}
+
+input FilterUpdateManySectorFundPricingMonthlyInput {
+  _id: String
+  aciSectorCode: String
+  monthlyReturns: Float
+  _ids: [MongoID]
+
+  """List of *indexed* fields that can be filtered via operators."""
+  _operators: OperatorsFilterUpdateManySectorFundPricingMonthlyInput
+  OR: [FilterUpdateManySectorFundPricingMonthlyInput!]
+  AND: [FilterUpdateManySectorFundPricingMonthlyInput!]
+}
+
+input FilterUpdateManySubscriptionInput {
+  _id: String
+  entityNumber: String
+  percentage: Float
+  amount: Float
+  role: String
+  relationship: String
+  policyNumber: String
+  policyOwnerEntityNumber: String
+  productName: String
+  productTypeCode: String
+  policyCommencementDate: Date
+  effectiveDate: Date
+  _ids: [MongoID]
+
+  """List of *indexed* fields that can be filtered via operators."""
+  _operators: OperatorsFilterUpdateManySubscriptionInput
+  OR: [FilterUpdateManySubscriptionInput!]
+  AND: [FilterUpdateManySubscriptionInput!]
+}
+
+input FilterUpdateOneFundComprehensiveInput {
+  _id: String
+  jseFundCode: String
+  fdDescId: String
+  trustNumber: String
+  fundName: String
+  className: String
+  mainFundCode: String
+  principleFundCode: String
+  discoveryFund: Boolean
+  regulatedFund: Boolean
+  currency: String
+  capInd: Boolean
+  sharePortfolioFund: Boolean
+  ageInMonths: String
+  logInDisplay: Boolean
+  discoverySectorCode: String
+  discoverySectorDesc: String
+  aciSectorCode: String
+  aciSectorDesc: String
+  aciSectorGroup: String
+  fundPdfOrder: String
+  structuredFundPerfUrl: String
+  fundFocus: String
+  benchmarkName: String
+  launchDate: Date
+  incomeDistribFreq: String
+  yearlyPerformanceDisclaimer: String
+  historicalRiskCd: String
+  historicalRisk: String
+  historicalReturnCd: String
+  historicalReturn: String
+  sectorRank: String
+  sectorQuartilePct: String
+  sectorRankQuartile: String
+  sectorCount: String
+  world: Boolean
+  ebFund: Boolean
+  ebMapping: String
+  ebFundStatement: String
+  mancoId: String
+  mancoName: String
+  fundManager: [FundComprehensiveFundManagerInput]
+  commentaries: [FundComprehensiveCommentariesInput]
+  fees: [FundComprehensiveFeesInput]
+  performance: [FundComprehensivePerformanceInput]
+  sectorPerformance: [FundComprehensiveSectorPerformanceInput]
+  facts: [FundComprehensiveFactsInput]
+  assetAllocation: [FundComprehensiveAssetAllocationInput]
+  sectorAllocation: [FundComprehensiveSectorAllocationInput]
+  topHoldings: [FundComprehensiveTopHoldingsInput]
+  incomeDistribution: [FundComprehensiveIncomeDistributionInput]
+  cashSplit: [FundComprehensiveCashSplitInput]
+  productAvailable: [FundComprehensiveProductAvailableInput]
+  reg28: JSON
+  fofBreakdown: [FundComprehensiveFofBreakdownInput]
+  _ids: [MongoID]
+
+  """List of *indexed* fields that can be filtered via operators."""
+  _operators: OperatorsFilterUpdateOneFundComprehensiveInput
+  OR: [FilterUpdateOneFundComprehensiveInput!]
+  AND: [FilterUpdateOneFundComprehensiveInput!]
+}
+
+input FilterUpdateOneFundInput {
+  _id: String
+  fundCode: String
+  principleFundCode: String
+  mainFundCode: String
+  isinCode: String
+  trustNumber: Float
+  longName: String
+  className: String
+  currency: String
+  discoveryFund: String
+  fundCap: String
+  specialCap: String
+  regulatedFund: String
+  principleClass: String
+  webDisplay: String
+  sharePortfolioFund: String
+  aciSectorCode: String
+  aciSectorGroup: String
+  assetManager: String
+  discoverySectorCode: String
+  discoverySectorDesc: String
+  ageInMonths: String
+  assetAllocations: [FundAssetAllocationsInput]
+  _ids: [MongoID]
+
+  """List of *indexed* fields that can be filtered via operators."""
+  _operators: OperatorsFilterUpdateOneFundInput
+  OR: [FilterUpdateOneFundInput!]
+  AND: [FilterUpdateOneFundInput!]
+}
+
+input FilterUpdateOneFundPricingMonthlyInput {
+  _id: String
+  jseFundCode: String
+  monthlyReturns: Float
+  _ids: [MongoID]
+
+  """List of *indexed* fields that can be filtered via operators."""
+  _operators: OperatorsFilterUpdateOneFundPricingMonthlyInput
+  OR: [FilterUpdateOneFundPricingMonthlyInput!]
+  AND: [FilterUpdateOneFundPricingMonthlyInput!]
+}
+
+input FilterUpdateOnePartyInput {
+  entityNumber: String
+  firstname: String
+  surname: String
+  dateOfBirth: String
+  gender: String
+  maritalStatus: String
+  contactEmails: [PartyContactEmailsInput]
+  contactNumbers: [PartyContactNumbersInput]
+  legalIdentities: [PartyLegalIdentitiesInput]
+  _id: MongoID
+  _ids: [MongoID]
+
+  """List of *indexed* fields that can be filtered via operators."""
+  _operators: OperatorsFilterUpdateOnePartyInput
+  OR: [FilterUpdateOnePartyInput!]
+  AND: [FilterUpdateOnePartyInput!]
+}
+
+input FilterUpdateOnePolicyInput {
+  _id: String
+  policyNumber: String
+  umbrellaNumber: String
+  commencementDate: Date
+  productCode: String
+  productName: Float
+  ownerEntityNumber: String
+  ownerName: String
+  ownerFirstnames: String
+  ownerSurname: String
+  ownerEntityType: String
+  brokerEntityNumber: String
+  status: String
+  maturityDate: Date
+  groupName: String
+  annualContributionIncrease: String
+  premiumFrequency: String
+  recurringPremium: String
+  totalSinglePremium: String
+  initialContribution: String
+  adhocContribution: String
+  totalContributions: String
+  totalWithdrawals: String
+  fundValue: String
+  maturityValue: String
+  growthRate: String
+  incomeEscalationRate: String
+  reportingCurrency: String
+  extractDate: Date
+  fundAllocation: [MongoID]
+  cessionType: String
+  _ids: [MongoID]
+
+  """List of *indexed* fields that can be filtered via operators."""
+  _operators: OperatorsFilterUpdateOnePolicyInput
+  OR: [FilterUpdateOnePolicyInput!]
+  AND: [FilterUpdateOnePolicyInput!]
+}
+
+input FilterUpdateOneRiskProfileLookupInput {
+  _id: String
+  policyNumber: String
+  product: String
+  productCategory: String
+  riskProfile: String
+  riskProfileCode: String
+  portfolioRiskRatingMin: Float
+  portfolioRiskRatingMax: Float
+  performanceGoal: String
+  inflationPlus: String
+  assetClass: String
+  assetClassCode: String
+  min: Float
+  max: Float
+  _ids: [MongoID]
+
+  """List of *indexed* fields that can be filtered via operators."""
+  _operators: OperatorsFilterUpdateOneRiskProfileLookupInput
+  OR: [FilterUpdateOneRiskProfileLookupInput!]
+  AND: [FilterUpdateOneRiskProfileLookupInput!]
+}
+
+input FilterUpdateOneSectorFundPricingInput {
+  _id: String
+  aciSectorCode: String
+  triPrice: Float
+  pricedDt: Date
+  avgReturn: Float
+  _ids: [MongoID]
+
+  """List of *indexed* fields that can be filtered via operators."""
+  _operators: OperatorsFilterUpdateOneSectorFundPricingInput
+  OR: [FilterUpdateOneSectorFundPricingInput!]
+  AND: [FilterUpdateOneSectorFundPricingInput!]
+}
+
+input FilterUpdateOneSectorFundPricingMonthlyInput {
+  _id: String
+  aciSectorCode: String
+  monthlyReturns: Float
+  _ids: [MongoID]
+
+  """List of *indexed* fields that can be filtered via operators."""
+  _operators: OperatorsFilterUpdateOneSectorFundPricingMonthlyInput
+  OR: [FilterUpdateOneSectorFundPricingMonthlyInput!]
+  AND: [FilterUpdateOneSectorFundPricingMonthlyInput!]
+}
+
+input FilterUpdateOneSubscriptionInput {
+  _id: String
+  entityNumber: String
+  percentage: Float
+  amount: Float
+  role: String
+  relationship: String
+  policyNumber: String
+  policyOwnerEntityNumber: String
+  productName: String
+  productTypeCode: String
+  policyCommencementDate: Date
+  effectiveDate: Date
+  _ids: [MongoID]
+
+  """List of *indexed* fields that can be filtered via operators."""
+  _operators: OperatorsFilterUpdateOneSubscriptionInput
+  OR: [FilterUpdateOneSubscriptionInput!]
+  AND: [FilterUpdateOneSubscriptionInput!]
+}
+
+type Fund {
+  _id: String!
+  fundCode: String
+  principleFundCode: String
+  mainFundCode: String
+  isinCode: String
+  trustNumber: Float
+  longName: String
+  className: String
+  currency: String
+  discoveryFund: String
+  fundCap: String
+  specialCap: String
+  regulatedFund: String
+  principleClass: String
+  webDisplay: String
+  sharePortfolioFund: String
+  aciSectorCode: String
+  aciSectorGroup: String
+  assetManager: String
+  discoverySectorCode: String
+  discoverySectorDesc: String
+  ageInMonths: String
+  assetAllocations: [FundAssetAllocations]
+}
+
+type FundAssetAllocations {
+  assetClassCode: String
+  percentage: Float
+  lastModDate: Date
+  portfolioDate: Date
+  assetClassDescription: String
+  _id: MongoID
+}
+
+input FundAssetAllocationsInput {
+  assetClassCode: String
+  percentage: Float
+  lastModDate: Date
+  portfolioDate: Date
+  assetClassDescription: String
+  _id: MongoID
+}
+
+type FundComprehensive {
+  _id: String!
+  jseFundCode: String
+  fdDescId: String
+  trustNumber: String
+  fundName: String
+  className: String
+  mainFundCode: String
+  principleFundCode: String
+  discoveryFund: Boolean
+  regulatedFund: Boolean
+  currency: String
+  capInd: Boolean
+  sharePortfolioFund: Boolean
+  ageInMonths: String
+  logInDisplay: Boolean
+  discoverySectorCode: String
+  discoverySectorDesc: String
+  aciSectorCode: String
+  aciSectorDesc: String
+  aciSectorGroup: String
+  fundPdfOrder: String
+  structuredFundPerfUrl: String
+  fundFocus: String
+  benchmarkName: String
+  launchDate: Date
+  incomeDistribFreq: String
+  yearlyPerformanceDisclaimer: String
+  historicalRiskCd: String
+  historicalRisk: String
+  historicalReturnCd: String
+  historicalReturn: String
+  sectorRank: String
+  sectorQuartilePct: String
+  sectorRankQuartile: String
+  sectorCount: String
+  world: Boolean
+  ebFund: Boolean
+  ebMapping: String
+  ebFundStatement: String
+  mancoId: String
+  mancoName: String
+  fundManager: [FundComprehensiveFundManager]
+  commentaries: [FundComprehensiveCommentaries]
+  fees: [FundComprehensiveFees]
+  performance: [FundComprehensivePerformance]
+  sectorPerformance: [FundComprehensiveSectorPerformance]
+  facts: [FundComprehensiveFacts]
+  assetAllocation: [FundComprehensiveAssetAllocation]
+  sectorAllocation: [FundComprehensiveSectorAllocation]
+  topHoldings: [FundComprehensiveTopHoldings]
+  incomeDistribution: [FundComprehensiveIncomeDistribution]
+  cashSplit: [FundComprehensiveCashSplit]
+  productAvailable: [FundComprehensiveProductAvailable]
+  reg28: JSON
+  fofBreakdown: [FundComprehensiveFofBreakdown]
+}
+
+type FundComprehensiveAssetAllocation {
+  assetClassCode: String
+  assetClassDesc: String
+  percentage: Float
+  portfolioDate: Date
+  _id: MongoID
+}
+
+input FundComprehensiveAssetAllocationInput {
+  assetClassCode: String
+  assetClassDesc: String
+  percentage: Float
+  portfolioDate: Date
+  _id: MongoID
+}
+
+type FundComprehensiveCashSplit {
+  allocDt: String
+  unitTrustPct: Float
+  cashPct: Float
+  _id: MongoID
+}
+
+input FundComprehensiveCashSplitInput {
+  allocDt: String
+  unitTrustPct: Float
+  cashPct: Float
+  _id: MongoID
+}
+
+type FundComprehensiveCommentaries {
+  displayInfo: String
+  urlLink: String
+  ordering: String
+  lastModDt: String
+  lastModUser: String
+  _id: MongoID
+}
+
+input FundComprehensiveCommentariesInput {
+  displayInfo: String
+  urlLink: String
+  ordering: String
+  lastModDt: String
+  lastModUser: String
+  _id: MongoID
+}
+
+"""A connection to a list of items."""
+type FundComprehensiveConnection {
+  """Total object count."""
+  count: Int!
+
+  """Information to aid in pagination."""
+  pageInfo: PageInfo!
+
+  """Information to aid in pagination."""
+  edges: [FundComprehensiveEdge!]!
+}
+
+"""An edge in a connection."""
+type FundComprehensiveEdge {
+  """The item at the end of the edge"""
+  node: FundComprehensive!
+
+  """A cursor for use in pagination"""
+  cursor: String!
+}
+
+type FundComprehensiveFacts {
+  fundSizeAmount: Float
+  fundSizeUnitCt: String
+  portfDt: Date
+  _id: MongoID
+}
+
+input FundComprehensiveFactsInput {
+  fundSizeAmount: Float
+  fundSizeUnitCt: String
+  portfDt: Date
+  _id: MongoID
+}
+
+type FundComprehensiveFees {
+  initialFeePct: String
+  annualFeePct: String
+  minimumAnnualFee: String
+  maximumAnnualFee: String
+  totalExpenseRatio: String
+  transactionCosts: String
+  totalExpenseRatioExclPP: String
+  totalExpenseRatioDt: String
+  initialProtectorPremiumPct: String
+  annualProtectorPremiumPct: String
+  compassInitialFee: String
+  _id: MongoID
+}
+
+input FundComprehensiveFeesInput {
+  initialFeePct: String
+  annualFeePct: String
+  minimumAnnualFee: String
+  maximumAnnualFee: String
+  totalExpenseRatio: String
+  transactionCosts: String
+  totalExpenseRatioExclPP: String
+  totalExpenseRatioDt: String
+  initialProtectorPremiumPct: String
+  annualProtectorPremiumPct: String
+  compassInitialFee: String
+  _id: MongoID
+}
+
+type FundComprehensiveFofBreakdown {
+  underlyingFdDescId: String
+  electPct: Float
+  prodTypCd: String
+  benCatCd: String
+  _id: MongoID
+}
+
+input FundComprehensiveFofBreakdownInput {
+  underlyingFdDescId: String
+  electPct: Float
+  prodTypCd: String
+  benCatCd: String
+  _id: MongoID
+}
+
+type FundComprehensiveFundManager {
+  fundManagerId: String
+  fundManagerName: String
+  _id: MongoID
+}
+
+input FundComprehensiveFundManagerInput {
+  fundManagerId: String
+  fundManagerName: String
+  _id: MongoID
+}
+
+type FundComprehensiveIncomeDistribution {
+  periodYear: String
+  periodMonth: String
+  value: String
+  _id: MongoID
+}
+
+input FundComprehensiveIncomeDistributionInput {
+  periodYear: String
+  periodMonth: String
+  value: String
+  _id: MongoID
+}
+
+"""List of items with pagination."""
+type FundComprehensivePagination {
+  """Total object count."""
+  count: Int
+
+  """Array of objects."""
+  items: [FundComprehensive]
+
+  """Information to aid in pagination."""
+  pageInfo: PaginationInfo!
+}
+
+type FundComprehensivePerformance {
+  calcDescription: String
+  calcTypCd: String
+  periodCd: String
+  period: String
+  effDt: String
+  pct: Float
+  yearlyReturn: String
+  sectorRank: String
+  sectorQuartilePct: Float
+  sectorRankQuartile: String
+  _id: MongoID
+}
+
+input FundComprehensivePerformanceInput {
+  calcDescription: String
+  calcTypCd: String
+  periodCd: String
+  period: String
+  effDt: String
+  pct: Float
+  yearlyReturn: String
+  sectorRank: String
+  sectorQuartilePct: Float
+  sectorRankQuartile: String
+  _id: MongoID
+}
+
+type FundComprehensiveProductAvailable {
+  code: String
+  description: String
+  _id: MongoID
+}
+
+input FundComprehensiveProductAvailableInput {
+  code: String
+  description: String
+  _id: MongoID
+}
+
+type FundComprehensiveSectorAllocation {
+  allocDt: String
+  marketSectorName: String
+  allocPct: Float
+  _id: MongoID
+}
+
+input FundComprehensiveSectorAllocationInput {
+  allocDt: String
+  marketSectorName: String
+  allocPct: Float
+  _id: MongoID
+}
+
+type FundComprehensiveSectorPerformance {
+  calcDescription: String
+  calcTypCd: String
+  periodCd: String
+  period: String
+  effDt: Date
+  pct: Float
+  _id: MongoID
+}
+
+input FundComprehensiveSectorPerformanceInput {
+  calcDescription: String
+  calcTypCd: String
+  periodCd: String
+  period: String
+  effDt: Date
+  pct: Float
+  _id: MongoID
+}
+
+type FundComprehensiveTopHoldings {
+  allocDt: String
+  holdingName: String
+  holdingSector: String
+  allocPct: Float
+  _id: MongoID
+}
+
+input FundComprehensiveTopHoldingsInput {
+  allocDt: String
+  holdingName: String
+  holdingSector: String
+  allocPct: Float
+  _id: MongoID
+}
+
+"""A connection to a list of items."""
+type FundConnection {
+  """Total object count."""
+  count: Int!
+
+  """Information to aid in pagination."""
+  pageInfo: PageInfo!
+
+  """Information to aid in pagination."""
+  edges: [FundEdge!]!
+}
+
+"""An edge in a connection."""
+type FundEdge {
+  """The item at the end of the edge"""
+  node: Fund!
+
+  """A cursor for use in pagination"""
+  cursor: String!
+}
+
+"""List of items with pagination."""
+type FundPagination {
+  """Total object count."""
+  count: Int
+
+  """Array of objects."""
+  items: [Fund]
+
+  """Information to aid in pagination."""
+  pageInfo: PaginationInfo!
+}
+
+type FundPricingMonthly {
+  _id: String!
+  jseFundCode: String
+  monthlyReturns: Float
+}
+
+"""A connection to a list of items."""
+type FundPricingMonthlyConnection {
+  """Total object count."""
+  count: Int!
+
+  """Information to aid in pagination."""
+  pageInfo: PageInfo!
+
+  """Information to aid in pagination."""
+  edges: [FundPricingMonthlyEdge!]!
+}
+
+"""An edge in a connection."""
+type FundPricingMonthlyEdge {
+  """The item at the end of the edge"""
+  node: FundPricingMonthly!
+
+  """A cursor for use in pagination"""
+  cursor: String!
+}
+
+"""List of items with pagination."""
+type FundPricingMonthlyPagination {
+  """Total object count."""
+  count: Int
+
+  """Array of objects."""
+  items: [FundPricingMonthly]
+
+  """Information to aid in pagination."""
+  pageInfo: PaginationInfo!
+}
+
+"""
+The `JSON` scalar type represents JSON values as specified by [ECMA-404](http://www.ecma-international.org/publications/files/ECMA-ST/ECMA-404.pdf).
+"""
+scalar JSON
+
+"""
+The `ID` scalar type represents a unique MongoDB identifier in collection.
+MongoDB by default use 12-byte ObjectId value
+(https://docs.mongodb.com/manual/reference/bson-types/#objectid). But MongoDB
+also may accepts string or integer as correct values for _id field.
+"""
+scalar MongoID
+
+type Mutation {
+  """
+  Create one document with mongoose defaults, setters, hooks and validation
+  """
+  fundComprehensiveCreateOne(record: CreateOneFundComprehensiveInput!): CreateOneFundComprehensivePayload
+
+  """
+  Creates Many documents with mongoose defaults, setters, hooks and validation
+  """
+  fundComprehensiveCreateMany(records: [CreateManyFundComprehensiveInput!]!): CreateManyFundComprehensivePayload
+
+  """
+  Update one document: 1) Retrieve one document by findById. 2) Apply updates to
+  mongoose document. 3) Mongoose applies defaults, setters, hooks and
+  validation. 4) And save it.
+  """
+  fundComprehensiveUpdateById(record: UpdateByIdFundComprehensiveInput!): UpdateByIdFundComprehensivePayload
+
+  """
+  Update one document: 1) Retrieve one document via findOne. 2) Apply updates to
+  mongoose document. 3) Mongoose applies defaults, setters, hooks and
+  validation. 4) And save it.
+  """
+  fundComprehensiveUpdateOne(
+    record: UpdateOneFundComprehensiveInput!
+
+    """Filter by fields"""
+    filter: FilterUpdateOneFundComprehensiveInput
+    sort: SortUpdateOneFundComprehensiveInput
+    skip: Int
+  ): UpdateOneFundComprehensivePayload
+
+  """
+  Update many documents without returning them: Use Query.update mongoose
+  method. Do not apply mongoose defaults, setters, hooks and validation. 
+  """
+  fundComprehensiveUpdateMany(
+    record: UpdateManyFundComprehensiveInput!
+
+    """Filter by fields"""
+    filter: FilterUpdateManyFundComprehensiveInput
+    sort: SortUpdateManyFundComprehensiveInput
+    skip: Int
+    limit: Int = 1000
+  ): UpdateManyFundComprehensivePayload
+
+  """
+  Remove one document: 1) Retrieve one document and remove with hooks via findByIdAndRemove. 2) Return removed document.
+  """
+  fundComprehensiveRemoveById(_id: MongoID!): RemoveByIdFundComprehensivePayload
+
+  """
+  Remove one document: 1) Remove with hooks via findOneAndRemove. 2) Return removed document.
+  """
+  fundComprehensiveRemoveOne(
+    """Filter by fields"""
+    filter: FilterRemoveOneFundComprehensiveInput
+    sort: SortRemoveOneFundComprehensiveInput
+  ): RemoveOneFundComprehensivePayload
+
+  """
+  Remove many documents without returning them: Use Query.remove mongoose
+  method. Do not apply mongoose defaults, setters, hooks and validation. 
+  """
+  fundComprehensiveRemoveMany(
+    """Filter by fields"""
+    filter: FilterRemoveManyFundComprehensiveInput!
+  ): RemoveManyFundComprehensivePayload
+
+  """
+  Create one document with mongoose defaults, setters, hooks and validation
+  """
+  fundPricingMonthlyCreateOne(record: CreateOneFundPricingMonthlyInput!): CreateOneFundPricingMonthlyPayload
+
+  """
+  Creates Many documents with mongoose defaults, setters, hooks and validation
+  """
+  fundPricingMonthlyCreateMany(records: [CreateManyFundPricingMonthlyInput!]!): CreateManyFundPricingMonthlyPayload
+
+  """
+  Update one document: 1) Retrieve one document by findById. 2) Apply updates to
+  mongoose document. 3) Mongoose applies defaults, setters, hooks and
+  validation. 4) And save it.
+  """
+  fundPricingMonthlyUpdateById(record: UpdateByIdFundPricingMonthlyInput!): UpdateByIdFundPricingMonthlyPayload
+
+  """
+  Update one document: 1) Retrieve one document via findOne. 2) Apply updates to
+  mongoose document. 3) Mongoose applies defaults, setters, hooks and
+  validation. 4) And save it.
+  """
+  fundPricingMonthlyUpdateOne(
+    record: UpdateOneFundPricingMonthlyInput!
+
+    """Filter by fields"""
+    filter: FilterUpdateOneFundPricingMonthlyInput
+    sort: SortUpdateOneFundPricingMonthlyInput
+    skip: Int
+  ): UpdateOneFundPricingMonthlyPayload
+
+  """
+  Update many documents without returning them: Use Query.update mongoose
+  method. Do not apply mongoose defaults, setters, hooks and validation. 
+  """
+  fundPricingMonthlyUpdateMany(
+    record: UpdateManyFundPricingMonthlyInput!
+
+    """Filter by fields"""
+    filter: FilterUpdateManyFundPricingMonthlyInput
+    sort: SortUpdateManyFundPricingMonthlyInput
+    skip: Int
+    limit: Int = 1000
+  ): UpdateManyFundPricingMonthlyPayload
+
+  """
+  Remove one document: 1) Retrieve one document and remove with hooks via findByIdAndRemove. 2) Return removed document.
+  """
+  fundPricingMonthlyRemoveById(_id: MongoID!): RemoveByIdFundPricingMonthlyPayload
+
+  """
+  Remove one document: 1) Remove with hooks via findOneAndRemove. 2) Return removed document.
+  """
+  fundPricingMonthlyRemoveOne(
+    """Filter by fields"""
+    filter: FilterRemoveOneFundPricingMonthlyInput
+    sort: SortRemoveOneFundPricingMonthlyInput
+  ): RemoveOneFundPricingMonthlyPayload
+
+  """
+  Remove many documents without returning them: Use Query.remove mongoose
+  method. Do not apply mongoose defaults, setters, hooks and validation. 
+  """
+  fundPricingMonthlyRemoveMany(
+    """Filter by fields"""
+    filter: FilterRemoveManyFundPricingMonthlyInput!
+  ): RemoveManyFundPricingMonthlyPayload
+
+  """
+  Create one document with mongoose defaults, setters, hooks and validation
+  """
+  fundCreateOne(record: CreateOneFundInput!): CreateOneFundPayload
+
+  """
+  Creates Many documents with mongoose defaults, setters, hooks and validation
+  """
+  fundCreateMany(records: [CreateManyFundInput!]!): CreateManyFundPayload
+
+  """
+  Update one document: 1) Retrieve one document by findById. 2) Apply updates to
+  mongoose document. 3) Mongoose applies defaults, setters, hooks and
+  validation. 4) And save it.
+  """
+  fundUpdateById(record: UpdateByIdFundInput!): UpdateByIdFundPayload
+
+  """
+  Update one document: 1) Retrieve one document via findOne. 2) Apply updates to
+  mongoose document. 3) Mongoose applies defaults, setters, hooks and
+  validation. 4) And save it.
+  """
+  fundUpdateOne(
+    record: UpdateOneFundInput!
+
+    """Filter by fields"""
+    filter: FilterUpdateOneFundInput
+    sort: SortUpdateOneFundInput
+    skip: Int
+  ): UpdateOneFundPayload
+
+  """
+  Update many documents without returning them: Use Query.update mongoose
+  method. Do not apply mongoose defaults, setters, hooks and validation. 
+  """
+  fundUpdateMany(
+    record: UpdateManyFundInput!
+
+    """Filter by fields"""
+    filter: FilterUpdateManyFundInput
+    sort: SortUpdateManyFundInput
+    skip: Int
+    limit: Int = 1000
+  ): UpdateManyFundPayload
+
+  """
+  Remove one document: 1) Retrieve one document and remove with hooks via findByIdAndRemove. 2) Return removed document.
+  """
+  fundRemoveById(_id: MongoID!): RemoveByIdFundPayload
+
+  """
+  Remove one document: 1) Remove with hooks via findOneAndRemove. 2) Return removed document.
+  """
+  fundRemoveOne(
+    """Filter by fields"""
+    filter: FilterRemoveOneFundInput
+    sort: SortRemoveOneFundInput
+  ): RemoveOneFundPayload
+
+  """
+  Remove many documents without returning them: Use Query.remove mongoose
+  method. Do not apply mongoose defaults, setters, hooks and validation. 
+  """
+  fundRemoveMany(
+    """Filter by fields"""
+    filter: FilterRemoveManyFundInput!
+  ): RemoveManyFundPayload
+
+  """
+  Create one document with mongoose defaults, setters, hooks and validation
+  """
+  partyCreateOne(record: CreateOnePartyInput!): CreateOnePartyPayload
+
+  """
+  Creates Many documents with mongoose defaults, setters, hooks and validation
+  """
+  partyCreateMany(records: [CreateManyPartyInput!]!): CreateManyPartyPayload
+
+  """
+  Update one document: 1) Retrieve one document by findById. 2) Apply updates to
+  mongoose document. 3) Mongoose applies defaults, setters, hooks and
+  validation. 4) And save it.
+  """
+  partyUpdateById(record: UpdateByIdPartyInput!): UpdateByIdPartyPayload
+
+  """
+  Update one document: 1) Retrieve one document via findOne. 2) Apply updates to
+  mongoose document. 3) Mongoose applies defaults, setters, hooks and
+  validation. 4) And save it.
+  """
+  partyUpdateOne(
+    record: UpdateOnePartyInput!
+
+    """Filter by fields"""
+    filter: FilterUpdateOnePartyInput
+    sort: SortUpdateOnePartyInput
+    skip: Int
+  ): UpdateOnePartyPayload
+
+  """
+  Update many documents without returning them: Use Query.update mongoose
+  method. Do not apply mongoose defaults, setters, hooks and validation. 
+  """
+  partyUpdateMany(
+    record: UpdateManyPartyInput!
+
+    """Filter by fields"""
+    filter: FilterUpdateManyPartyInput
+    sort: SortUpdateManyPartyInput
+    skip: Int
+    limit: Int = 1000
+  ): UpdateManyPartyPayload
+
+  """
+  Remove one document: 1) Retrieve one document and remove with hooks via findByIdAndRemove. 2) Return removed document.
+  """
+  partyRemoveById(_id: MongoID!): RemoveByIdPartyPayload
+
+  """
+  Remove one document: 1) Remove with hooks via findOneAndRemove. 2) Return removed document.
+  """
+  partyRemoveOne(
+    """Filter by fields"""
+    filter: FilterRemoveOnePartyInput
+    sort: SortRemoveOnePartyInput
+  ): RemoveOnePartyPayload
+
+  """
+  Remove many documents without returning them: Use Query.remove mongoose
+  method. Do not apply mongoose defaults, setters, hooks and validation. 
+  """
+  partyRemoveMany(
+    """Filter by fields"""
+    filter: FilterRemoveManyPartyInput!
+  ): RemoveManyPartyPayload
+
+  """
+  Create one document with mongoose defaults, setters, hooks and validation
+  """
+  policyCreateOne(record: CreateOnePolicyInput!): CreateOnePolicyPayload
+
+  """
+  Creates Many documents with mongoose defaults, setters, hooks and validation
+  """
+  policyCreateMany(records: [CreateManyPolicyInput!]!): CreateManyPolicyPayload
+
+  """
+  Update one document: 1) Retrieve one document by findById. 2) Apply updates to
+  mongoose document. 3) Mongoose applies defaults, setters, hooks and
+  validation. 4) And save it.
+  """
+  policyUpdateById(record: UpdateByIdPolicyInput!): UpdateByIdPolicyPayload
+
+  """
+  Update one document: 1) Retrieve one document via findOne. 2) Apply updates to
+  mongoose document. 3) Mongoose applies defaults, setters, hooks and
+  validation. 4) And save it.
+  """
+  policyUpdateOne(
+    record: UpdateOnePolicyInput!
+
+    """Filter by fields"""
+    filter: FilterUpdateOnePolicyInput
+    sort: SortUpdateOnePolicyInput
+    skip: Int
+  ): UpdateOnePolicyPayload
+
+  """
+  Update many documents without returning them: Use Query.update mongoose
+  method. Do not apply mongoose defaults, setters, hooks and validation. 
+  """
+  policyUpdateMany(
+    record: UpdateManyPolicyInput!
+
+    """Filter by fields"""
+    filter: FilterUpdateManyPolicyInput
+    sort: SortUpdateManyPolicyInput
+    skip: Int
+    limit: Int = 1000
+  ): UpdateManyPolicyPayload
+
+  """
+  Remove one document: 1) Retrieve one document and remove with hooks via findByIdAndRemove. 2) Return removed document.
+  """
+  policyRemoveById(_id: MongoID!): RemoveByIdPolicyPayload
+
+  """
+  Remove one document: 1) Remove with hooks via findOneAndRemove. 2) Return removed document.
+  """
+  policyRemoveOne(
+    """Filter by fields"""
+    filter: FilterRemoveOnePolicyInput
+    sort: SortRemoveOnePolicyInput
+  ): RemoveOnePolicyPayload
+
+  """
+  Remove many documents without returning them: Use Query.remove mongoose
+  method. Do not apply mongoose defaults, setters, hooks and validation. 
+  """
+  policyRemoveMany(
+    """Filter by fields"""
+    filter: FilterRemoveManyPolicyInput!
+  ): RemoveManyPolicyPayload
+
+  """
+  Create one document with mongoose defaults, setters, hooks and validation
+  """
+  riskProfileLookupCreateOne(record: CreateOneRiskProfileLookupInput!): CreateOneRiskProfileLookupPayload
+
+  """
+  Creates Many documents with mongoose defaults, setters, hooks and validation
+  """
+  riskProfileLookupCreateMany(records: [CreateManyRiskProfileLookupInput!]!): CreateManyRiskProfileLookupPayload
+
+  """
+  Update one document: 1) Retrieve one document by findById. 2) Apply updates to
+  mongoose document. 3) Mongoose applies defaults, setters, hooks and
+  validation. 4) And save it.
+  """
+  riskProfileLookupUpdateById(record: UpdateByIdRiskProfileLookupInput!): UpdateByIdRiskProfileLookupPayload
+
+  """
+  Update one document: 1) Retrieve one document via findOne. 2) Apply updates to
+  mongoose document. 3) Mongoose applies defaults, setters, hooks and
+  validation. 4) And save it.
+  """
+  riskProfileLookupUpdateOne(
+    record: UpdateOneRiskProfileLookupInput!
+
+    """Filter by fields"""
+    filter: FilterUpdateOneRiskProfileLookupInput
+    sort: SortUpdateOneRiskProfileLookupInput
+    skip: Int
+  ): UpdateOneRiskProfileLookupPayload
+
+  """
+  Update many documents without returning them: Use Query.update mongoose
+  method. Do not apply mongoose defaults, setters, hooks and validation. 
+  """
+  riskProfileLookupUpdateMany(
+    record: UpdateManyRiskProfileLookupInput!
+
+    """Filter by fields"""
+    filter: FilterUpdateManyRiskProfileLookupInput
+    sort: SortUpdateManyRiskProfileLookupInput
+    skip: Int
+    limit: Int = 1000
+  ): UpdateManyRiskProfileLookupPayload
+
+  """
+  Remove one document: 1) Retrieve one document and remove with hooks via findByIdAndRemove. 2) Return removed document.
+  """
+  riskProfileLookupRemoveById(_id: MongoID!): RemoveByIdRiskProfileLookupPayload
+
+  """
+  Remove one document: 1) Remove with hooks via findOneAndRemove. 2) Return removed document.
+  """
+  riskProfileLookupRemoveOne(
+    """Filter by fields"""
+    filter: FilterRemoveOneRiskProfileLookupInput
+    sort: SortRemoveOneRiskProfileLookupInput
+  ): RemoveOneRiskProfileLookupPayload
+
+  """
+  Remove many documents without returning them: Use Query.remove mongoose
+  method. Do not apply mongoose defaults, setters, hooks and validation. 
+  """
+  riskProfileLookupRemoveMany(
+    """Filter by fields"""
+    filter: FilterRemoveManyRiskProfileLookupInput!
+  ): RemoveManyRiskProfileLookupPayload
+
+  """
+  Create one document with mongoose defaults, setters, hooks and validation
+  """
+  sectorFundPricingMonthlyCreateOne(record: CreateOneSectorFundPricingMonthlyInput!): CreateOneSectorFundPricingMonthlyPayload
+
+  """
+  Creates Many documents with mongoose defaults, setters, hooks and validation
+  """
+  sectorFundPricingMonthlyCreateMany(records: [CreateManySectorFundPricingMonthlyInput!]!): CreateManySectorFundPricingMonthlyPayload
+
+  """
+  Update one document: 1) Retrieve one document by findById. 2) Apply updates to
+  mongoose document. 3) Mongoose applies defaults, setters, hooks and
+  validation. 4) And save it.
+  """
+  sectorFundPricingMonthlyUpdateById(record: UpdateByIdSectorFundPricingMonthlyInput!): UpdateByIdSectorFundPricingMonthlyPayload
+
+  """
+  Update one document: 1) Retrieve one document via findOne. 2) Apply updates to
+  mongoose document. 3) Mongoose applies defaults, setters, hooks and
+  validation. 4) And save it.
+  """
+  sectorFundPricingMonthlyUpdateOne(
+    record: UpdateOneSectorFundPricingMonthlyInput!
+
+    """Filter by fields"""
+    filter: FilterUpdateOneSectorFundPricingMonthlyInput
+    sort: SortUpdateOneSectorFundPricingMonthlyInput
+    skip: Int
+  ): UpdateOneSectorFundPricingMonthlyPayload
+
+  """
+  Update many documents without returning them: Use Query.update mongoose
+  method. Do not apply mongoose defaults, setters, hooks and validation. 
+  """
+  sectorFundPricingMonthlyUpdateMany(
+    record: UpdateManySectorFundPricingMonthlyInput!
+
+    """Filter by fields"""
+    filter: FilterUpdateManySectorFundPricingMonthlyInput
+    sort: SortUpdateManySectorFundPricingMonthlyInput
+    skip: Int
+    limit: Int = 1000
+  ): UpdateManySectorFundPricingMonthlyPayload
+
+  """
+  Remove one document: 1) Retrieve one document and remove with hooks via findByIdAndRemove. 2) Return removed document.
+  """
+  sectorFundPricingMonthlyRemoveById(_id: MongoID!): RemoveByIdSectorFundPricingMonthlyPayload
+
+  """
+  Remove one document: 1) Remove with hooks via findOneAndRemove. 2) Return removed document.
+  """
+  sectorFundPricingMonthlyRemoveOne(
+    """Filter by fields"""
+    filter: FilterRemoveOneSectorFundPricingMonthlyInput
+    sort: SortRemoveOneSectorFundPricingMonthlyInput
+  ): RemoveOneSectorFundPricingMonthlyPayload
+
+  """
+  Remove many documents without returning them: Use Query.remove mongoose
+  method. Do not apply mongoose defaults, setters, hooks and validation. 
+  """
+  sectorFundPricingMonthlyRemoveMany(
+    """Filter by fields"""
+    filter: FilterRemoveManySectorFundPricingMonthlyInput!
+  ): RemoveManySectorFundPricingMonthlyPayload
+
+  """
+  Create one document with mongoose defaults, setters, hooks and validation
+  """
+  sectorFundPricingCreateOne(record: CreateOneSectorFundPricingInput!): CreateOneSectorFundPricingPayload
+
+  """
+  Creates Many documents with mongoose defaults, setters, hooks and validation
+  """
+  sectorFundPricingCreateMany(records: [CreateManySectorFundPricingInput!]!): CreateManySectorFundPricingPayload
+
+  """
+  Update one document: 1) Retrieve one document by findById. 2) Apply updates to
+  mongoose document. 3) Mongoose applies defaults, setters, hooks and
+  validation. 4) And save it.
+  """
+  sectorFundPricingUpdateById(record: UpdateByIdSectorFundPricingInput!): UpdateByIdSectorFundPricingPayload
+
+  """
+  Update one document: 1) Retrieve one document via findOne. 2) Apply updates to
+  mongoose document. 3) Mongoose applies defaults, setters, hooks and
+  validation. 4) And save it.
+  """
+  sectorFundPricingUpdateOne(
+    record: UpdateOneSectorFundPricingInput!
+
+    """Filter by fields"""
+    filter: FilterUpdateOneSectorFundPricingInput
+    sort: SortUpdateOneSectorFundPricingInput
+    skip: Int
+  ): UpdateOneSectorFundPricingPayload
+
+  """
+  Update many documents without returning them: Use Query.update mongoose
+  method. Do not apply mongoose defaults, setters, hooks and validation. 
+  """
+  sectorFundPricingUpdateMany(
+    record: UpdateManySectorFundPricingInput!
+
+    """Filter by fields"""
+    filter: FilterUpdateManySectorFundPricingInput
+    sort: SortUpdateManySectorFundPricingInput
+    skip: Int
+    limit: Int = 1000
+  ): UpdateManySectorFundPricingPayload
+
+  """
+  Remove one document: 1) Retrieve one document and remove with hooks via findByIdAndRemove. 2) Return removed document.
+  """
+  sectorFundPricingRemoveById(_id: MongoID!): RemoveByIdSectorFundPricingPayload
+
+  """
+  Remove one document: 1) Remove with hooks via findOneAndRemove. 2) Return removed document.
+  """
+  sectorFundPricingRemoveOne(
+    """Filter by fields"""
+    filter: FilterRemoveOneSectorFundPricingInput
+    sort: SortRemoveOneSectorFundPricingInput
+  ): RemoveOneSectorFundPricingPayload
+
+  """
+  Remove many documents without returning them: Use Query.remove mongoose
+  method. Do not apply mongoose defaults, setters, hooks and validation. 
+  """
+  sectorFundPricingRemoveMany(
+    """Filter by fields"""
+    filter: FilterRemoveManySectorFundPricingInput!
+  ): RemoveManySectorFundPricingPayload
+
+  """
+  Create one document with mongoose defaults, setters, hooks and validation
+  """
+  subscriptionCreateOne(record: CreateOneSubscriptionInput!): CreateOneSubscriptionPayload
+
+  """
+  Creates Many documents with mongoose defaults, setters, hooks and validation
+  """
+  subscriptionCreateMany(records: [CreateManySubscriptionInput!]!): CreateManySubscriptionPayload
+
+  """
+  Update one document: 1) Retrieve one document by findById. 2) Apply updates to
+  mongoose document. 3) Mongoose applies defaults, setters, hooks and
+  validation. 4) And save it.
+  """
+  subscriptionUpdateById(record: UpdateByIdSubscriptionInput!): UpdateByIdSubscriptionPayload
+
+  """
+  Update one document: 1) Retrieve one document via findOne. 2) Apply updates to
+  mongoose document. 3) Mongoose applies defaults, setters, hooks and
+  validation. 4) And save it.
+  """
+  subscriptionUpdateOne(
+    record: UpdateOneSubscriptionInput!
+
+    """Filter by fields"""
+    filter: FilterUpdateOneSubscriptionInput
+    sort: SortUpdateOneSubscriptionInput
+    skip: Int
+  ): UpdateOneSubscriptionPayload
+
+  """
+  Update many documents without returning them: Use Query.update mongoose
+  method. Do not apply mongoose defaults, setters, hooks and validation. 
+  """
+  subscriptionUpdateMany(
+    record: UpdateManySubscriptionInput!
+
+    """Filter by fields"""
+    filter: FilterUpdateManySubscriptionInput
+    sort: SortUpdateManySubscriptionInput
+    skip: Int
+    limit: Int = 1000
+  ): UpdateManySubscriptionPayload
+
+  """
+  Remove one document: 1) Retrieve one document and remove with hooks via findByIdAndRemove. 2) Return removed document.
+  """
+  subscriptionRemoveById(_id: MongoID!): RemoveByIdSubscriptionPayload
+
+  """
+  Remove one document: 1) Remove with hooks via findOneAndRemove. 2) Return removed document.
+  """
+  subscriptionRemoveOne(
+    """Filter by fields"""
+    filter: FilterRemoveOneSubscriptionInput
+    sort: SortRemoveOneSubscriptionInput
+  ): RemoveOneSubscriptionPayload
+
+  """
+  Remove many documents without returning them: Use Query.remove mongoose
+  method. Do not apply mongoose defaults, setters, hooks and validation. 
+  """
+  subscriptionRemoveMany(
+    """Filter by fields"""
+    filter: FilterRemoveManySubscriptionInput!
+  ): RemoveManySubscriptionPayload
+}
+
+"""For performance reason this type contains only *indexed* fields."""
+input OperatorsFilterFindManyFundComprehensiveInput {
+  _id: _idOperatorsFilterFindManyFundComprehensiveInput
+}
+
+"""For performance reason this type contains only *indexed* fields."""
+input OperatorsFilterFindManyFundInput {
+  _id: _idOperatorsFilterFindManyFundInput
+}
+
+"""For performance reason this type contains only *indexed* fields."""
+input OperatorsFilterFindManyFundPricingMonthlyInput {
+  _id: _idOperatorsFilterFindManyFundPricingMonthlyInput
+}
+
+"""For performance reason this type contains only *indexed* fields."""
+input OperatorsFilterFindManyPartyInput {
+  _id: _idOperatorsFilterFindManyPartyInput
+}
+
+"""For performance reason this type contains only *indexed* fields."""
+input OperatorsFilterFindManyPolicyInput {
+  _id: _idOperatorsFilterFindManyPolicyInput
+}
+
+"""For performance reason this type contains only *indexed* fields."""
+input OperatorsFilterFindManyRiskProfileLookupInput {
+  _id: _idOperatorsFilterFindManyRiskProfileLookupInput
+}
+
+"""For performance reason this type contains only *indexed* fields."""
+input OperatorsFilterFindManySectorFundPricingInput {
+  _id: _idOperatorsFilterFindManySectorFundPricingInput
+}
+
+"""For performance reason this type contains only *indexed* fields."""
+input OperatorsFilterFindManySectorFundPricingMonthlyInput {
+  _id: _idOperatorsFilterFindManySectorFundPricingMonthlyInput
+}
+
+"""For performance reason this type contains only *indexed* fields."""
+input OperatorsFilterFindManySubscriptionInput {
+  _id: _idOperatorsFilterFindManySubscriptionInput
+}
+
+"""For performance reason this type contains only *indexed* fields."""
+input OperatorsFilterFindOneFundComprehensiveInput {
+  _id: _idOperatorsFilterFindOneFundComprehensiveInput
+}
+
+"""For performance reason this type contains only *indexed* fields."""
+input OperatorsFilterFindOneFundInput {
+  _id: _idOperatorsFilterFindOneFundInput
+}
+
+"""For performance reason this type contains only *indexed* fields."""
+input OperatorsFilterFindOneFundPricingMonthlyInput {
+  _id: _idOperatorsFilterFindOneFundPricingMonthlyInput
+}
+
+"""For performance reason this type contains only *indexed* fields."""
+input OperatorsFilterFindOnePartyInput {
+  _id: _idOperatorsFilterFindOnePartyInput
+}
+
+"""For performance reason this type contains only *indexed* fields."""
+input OperatorsFilterFindOnePolicyInput {
+  _id: _idOperatorsFilterFindOnePolicyInput
+}
+
+"""For performance reason this type contains only *indexed* fields."""
+input OperatorsFilterFindOneRiskProfileLookupInput {
+  _id: _idOperatorsFilterFindOneRiskProfileLookupInput
+}
+
+"""For performance reason this type contains only *indexed* fields."""
+input OperatorsFilterFindOneSectorFundPricingInput {
+  _id: _idOperatorsFilterFindOneSectorFundPricingInput
+}
+
+"""For performance reason this type contains only *indexed* fields."""
+input OperatorsFilterFindOneSectorFundPricingMonthlyInput {
+  _id: _idOperatorsFilterFindOneSectorFundPricingMonthlyInput
+}
+
+"""For performance reason this type contains only *indexed* fields."""
+input OperatorsFilterFindOneSubscriptionInput {
+  _id: _idOperatorsFilterFindOneSubscriptionInput
+}
+
+"""For performance reason this type contains only *indexed* fields."""
+input OperatorsFilterFundComprehensiveInput {
+  _id: _idOperatorsFilterFundComprehensiveInput
+}
+
+"""For performance reason this type contains only *indexed* fields."""
+input OperatorsFilterFundInput {
+  _id: _idOperatorsFilterFundInput
+}
+
+"""For performance reason this type contains only *indexed* fields."""
+input OperatorsFilterFundPricingMonthlyInput {
+  _id: _idOperatorsFilterFundPricingMonthlyInput
+}
+
+"""For performance reason this type contains only *indexed* fields."""
+input OperatorsFilterPartyInput {
+  _id: _idOperatorsFilterPartyInput
+}
+
+"""For performance reason this type contains only *indexed* fields."""
+input OperatorsFilterPolicyInput {
+  _id: _idOperatorsFilterPolicyInput
+}
+
+"""For performance reason this type contains only *indexed* fields."""
+input OperatorsFilterRemoveManyFundComprehensiveInput {
+  _id: _idOperatorsFilterRemoveManyFundComprehensiveInput
+}
+
+"""For performance reason this type contains only *indexed* fields."""
+input OperatorsFilterRemoveManyFundInput {
+  _id: _idOperatorsFilterRemoveManyFundInput
+}
+
+"""For performance reason this type contains only *indexed* fields."""
+input OperatorsFilterRemoveManyFundPricingMonthlyInput {
+  _id: _idOperatorsFilterRemoveManyFundPricingMonthlyInput
+}
+
+"""For performance reason this type contains only *indexed* fields."""
+input OperatorsFilterRemoveManyPartyInput {
+  _id: _idOperatorsFilterRemoveManyPartyInput
+}
+
+"""For performance reason this type contains only *indexed* fields."""
+input OperatorsFilterRemoveManyPolicyInput {
+  _id: _idOperatorsFilterRemoveManyPolicyInput
+}
+
+"""For performance reason this type contains only *indexed* fields."""
+input OperatorsFilterRemoveManyRiskProfileLookupInput {
+  _id: _idOperatorsFilterRemoveManyRiskProfileLookupInput
+}
+
+"""For performance reason this type contains only *indexed* fields."""
+input OperatorsFilterRemoveManySectorFundPricingInput {
+  _id: _idOperatorsFilterRemoveManySectorFundPricingInput
+}
+
+"""For performance reason this type contains only *indexed* fields."""
+input OperatorsFilterRemoveManySectorFundPricingMonthlyInput {
+  _id: _idOperatorsFilterRemoveManySectorFundPricingMonthlyInput
+}
+
+"""For performance reason this type contains only *indexed* fields."""
+input OperatorsFilterRemoveManySubscriptionInput {
+  _id: _idOperatorsFilterRemoveManySubscriptionInput
+}
+
+"""For performance reason this type contains only *indexed* fields."""
+input OperatorsFilterRemoveOneFundComprehensiveInput {
+  _id: _idOperatorsFilterRemoveOneFundComprehensiveInput
+}
+
+"""For performance reason this type contains only *indexed* fields."""
+input OperatorsFilterRemoveOneFundInput {
+  _id: _idOperatorsFilterRemoveOneFundInput
+}
+
+"""For performance reason this type contains only *indexed* fields."""
+input OperatorsFilterRemoveOneFundPricingMonthlyInput {
+  _id: _idOperatorsFilterRemoveOneFundPricingMonthlyInput
+}
+
+"""For performance reason this type contains only *indexed* fields."""
+input OperatorsFilterRemoveOnePartyInput {
+  _id: _idOperatorsFilterRemoveOnePartyInput
+}
+
+"""For performance reason this type contains only *indexed* fields."""
+input OperatorsFilterRemoveOnePolicyInput {
+  _id: _idOperatorsFilterRemoveOnePolicyInput
+}
+
+"""For performance reason this type contains only *indexed* fields."""
+input OperatorsFilterRemoveOneRiskProfileLookupInput {
+  _id: _idOperatorsFilterRemoveOneRiskProfileLookupInput
+}
+
+"""For performance reason this type contains only *indexed* fields."""
+input OperatorsFilterRemoveOneSectorFundPricingInput {
+  _id: _idOperatorsFilterRemoveOneSectorFundPricingInput
+}
+
+"""For performance reason this type contains only *indexed* fields."""
+input OperatorsFilterRemoveOneSectorFundPricingMonthlyInput {
+  _id: _idOperatorsFilterRemoveOneSectorFundPricingMonthlyInput
+}
+
+"""For performance reason this type contains only *indexed* fields."""
+input OperatorsFilterRemoveOneSubscriptionInput {
+  _id: _idOperatorsFilterRemoveOneSubscriptionInput
+}
+
+"""For performance reason this type contains only *indexed* fields."""
+input OperatorsFilterRiskProfileLookupInput {
+  _id: _idOperatorsFilterRiskProfileLookupInput
+}
+
+"""For performance reason this type contains only *indexed* fields."""
+input OperatorsFilterSectorFundPricingInput {
+  _id: _idOperatorsFilterSectorFundPricingInput
+}
+
+"""For performance reason this type contains only *indexed* fields."""
+input OperatorsFilterSectorFundPricingMonthlyInput {
+  _id: _idOperatorsFilterSectorFundPricingMonthlyInput
+}
+
+"""For performance reason this type contains only *indexed* fields."""
+input OperatorsFilterSubscriptionInput {
+  _id: _idOperatorsFilterSubscriptionInput
+}
+
+"""For performance reason this type contains only *indexed* fields."""
+input OperatorsFilterUpdateManyFundComprehensiveInput {
+  _id: _idOperatorsFilterUpdateManyFundComprehensiveInput
+}
+
+"""For performance reason this type contains only *indexed* fields."""
+input OperatorsFilterUpdateManyFundInput {
+  _id: _idOperatorsFilterUpdateManyFundInput
+}
+
+"""For performance reason this type contains only *indexed* fields."""
+input OperatorsFilterUpdateManyFundPricingMonthlyInput {
+  _id: _idOperatorsFilterUpdateManyFundPricingMonthlyInput
+}
+
+"""For performance reason this type contains only *indexed* fields."""
+input OperatorsFilterUpdateManyPartyInput {
+  _id: _idOperatorsFilterUpdateManyPartyInput
+}
+
+"""For performance reason this type contains only *indexed* fields."""
+input OperatorsFilterUpdateManyPolicyInput {
+  _id: _idOperatorsFilterUpdateManyPolicyInput
+}
+
+"""For performance reason this type contains only *indexed* fields."""
+input OperatorsFilterUpdateManyRiskProfileLookupInput {
+  _id: _idOperatorsFilterUpdateManyRiskProfileLookupInput
+}
+
+"""For performance reason this type contains only *indexed* fields."""
+input OperatorsFilterUpdateManySectorFundPricingInput {
+  _id: _idOperatorsFilterUpdateManySectorFundPricingInput
+}
+
+"""For performance reason this type contains only *indexed* fields."""
+input OperatorsFilterUpdateManySectorFundPricingMonthlyInput {
+  _id: _idOperatorsFilterUpdateManySectorFundPricingMonthlyInput
+}
+
+"""For performance reason this type contains only *indexed* fields."""
+input OperatorsFilterUpdateManySubscriptionInput {
+  _id: _idOperatorsFilterUpdateManySubscriptionInput
+}
+
+"""For performance reason this type contains only *indexed* fields."""
+input OperatorsFilterUpdateOneFundComprehensiveInput {
+  _id: _idOperatorsFilterUpdateOneFundComprehensiveInput
+}
+
+"""For performance reason this type contains only *indexed* fields."""
+input OperatorsFilterUpdateOneFundInput {
+  _id: _idOperatorsFilterUpdateOneFundInput
+}
+
+"""For performance reason this type contains only *indexed* fields."""
+input OperatorsFilterUpdateOneFundPricingMonthlyInput {
+  _id: _idOperatorsFilterUpdateOneFundPricingMonthlyInput
+}
+
+"""For performance reason this type contains only *indexed* fields."""
+input OperatorsFilterUpdateOnePartyInput {
+  _id: _idOperatorsFilterUpdateOnePartyInput
+}
+
+"""For performance reason this type contains only *indexed* fields."""
+input OperatorsFilterUpdateOnePolicyInput {
+  _id: _idOperatorsFilterUpdateOnePolicyInput
+}
+
+"""For performance reason this type contains only *indexed* fields."""
+input OperatorsFilterUpdateOneRiskProfileLookupInput {
+  _id: _idOperatorsFilterUpdateOneRiskProfileLookupInput
+}
+
+"""For performance reason this type contains only *indexed* fields."""
+input OperatorsFilterUpdateOneSectorFundPricingInput {
+  _id: _idOperatorsFilterUpdateOneSectorFundPricingInput
+}
+
+"""For performance reason this type contains only *indexed* fields."""
+input OperatorsFilterUpdateOneSectorFundPricingMonthlyInput {
+  _id: _idOperatorsFilterUpdateOneSectorFundPricingMonthlyInput
+}
+
+"""For performance reason this type contains only *indexed* fields."""
+input OperatorsFilterUpdateOneSubscriptionInput {
+  _id: _idOperatorsFilterUpdateOneSubscriptionInput
+}
+
+"""Information about pagination in a connection."""
+type PageInfo {
+  """When paginating forwards, are there more items?"""
+  hasNextPage: Boolean!
+
+  """When paginating backwards, are there more items?"""
+  hasPreviousPage: Boolean!
+
+  """When paginating backwards, the cursor to continue."""
+  startCursor: String
+
+  """When paginating forwards, the cursor to continue."""
+  endCursor: String
+}
+
+type PaginationInfo {
+  currentPage: Int!
+  perPage: Int!
+  pageCount: Int
+  itemCount: Int
+  hasNextPage: Boolean
+  hasPreviousPage: Boolean
+}
+
+type Party {
+  entityNumber: String
+  firstname: String
+  surname: String
+  dateOfBirth: String
+  gender: String
+  maritalStatus: String
+  contactEmails: [PartyContactEmails]
+  contactNumbers: [PartyContactNumbers]
+  legalIdentities: [PartyLegalIdentities]
+  _id: MongoID!
+}
+
+"""A connection to a list of items."""
+type PartyConnection {
+  """Total object count."""
+  count: Int!
+
+  """Information to aid in pagination."""
+  pageInfo: PageInfo!
+
+  """Information to aid in pagination."""
+  edges: [PartyEdge!]!
+}
+
+type PartyContactEmails {
+  emailType: String
+  address: String
+  _id: MongoID
+}
+
+input PartyContactEmailsInput {
+  emailType: String
+  address: String
+  _id: MongoID
+}
+
+type PartyContactNumbers {
+  numberType: String
+  number: String
+  _id: MongoID
+}
+
+input PartyContactNumbersInput {
+  numberType: String
+  number: String
+  _id: MongoID
+}
+
+"""An edge in a connection."""
+type PartyEdge {
+  """The item at the end of the edge"""
+  node: Party!
+
+  """A cursor for use in pagination"""
+  cursor: String!
+}
+
+type PartyLegalIdentities {
+  identityType: String
+  number: String
+  _id: MongoID
+}
+
+input PartyLegalIdentitiesInput {
+  identityType: String
+  number: String
+  _id: MongoID
+}
+
+"""List of items with pagination."""
+type PartyPagination {
+  """Total object count."""
+  count: Int
+
+  """Array of objects."""
+  items: [Party]
+
+  """Information to aid in pagination."""
+  pageInfo: PaginationInfo!
+}
+
+type Policy {
+  _id: String!
+  policyNumber: String
+  umbrellaNumber: String
+  commencementDate: Date
+  productCode: String
+  productName: Float
+  ownerEntityNumber: String
+  ownerName: String
+  ownerFirstnames: String
+  ownerSurname: String
+  ownerEntityType: String
+  brokerEntityNumber: String
+  status: String
+  maturityDate: Date
+  groupName: String
+  annualContributionIncrease: String
+  premiumFrequency: String
+  recurringPremium: String
+  totalSinglePremium: String
+  initialContribution: String
+  adhocContribution: String
+  totalContributions: String
+  totalWithdrawals: String
+  fundValue: String
+  maturityValue: String
+  growthRate: String
+  incomeEscalationRate: String
+  reportingCurrency: String
+  extractDate: Date
+  fundAllocation: [MongoID]
+  cessionType: String
+}
+
+"""A connection to a list of items."""
+type PolicyConnection {
+  """Total object count."""
+  count: Int!
+
+  """Information to aid in pagination."""
+  pageInfo: PageInfo!
+
+  """Information to aid in pagination."""
+  edges: [PolicyEdge!]!
+}
+
+"""An edge in a connection."""
+type PolicyEdge {
+  """The item at the end of the edge"""
+  node: Policy!
+
+  """A cursor for use in pagination"""
+  cursor: String!
+}
+
+"""List of items with pagination."""
+type PolicyPagination {
+  """Total object count."""
+  count: Int
+
+  """Array of objects."""
+  items: [Policy]
+
+  """Information to aid in pagination."""
+  pageInfo: PaginationInfo!
+}
+
+type Query {
+  fundComprehensiveById(_id: MongoID!): FundComprehensive
+  fundComprehensiveByIds(_ids: [MongoID]!, limit: Int = 1000, sort: SortFindByIdsFundComprehensiveInput): [FundComprehensive]
+  fundComprehensiveOne(
+    """Filter by fields"""
+    filter: FilterFindOneFundComprehensiveInput
+    skip: Int
+    sort: SortFindOneFundComprehensiveInput
+  ): FundComprehensive
+  fundComprehensiveMany(
+    """Filter by fields"""
+    filter: FilterFindManyFundComprehensiveInput
+    skip: Int
+    limit: Int = 1000
+    sort: SortFindManyFundComprehensiveInput
+  ): [FundComprehensive]
+  fundComprehensiveCount(
+    """Filter by fields"""
+    filter: FilterFundComprehensiveInput
+  ): Int
+  fundComprehensiveConnection(
+    """Forward pagination argument for returning at most first edges"""
+    first: Int
+
+    """Forward pagination argument for returning at most first edges"""
+    after: String
+
+    """Backward pagination argument for returning at most last edges"""
+    last: Int
+
+    """Backward pagination argument for returning at most last edges"""
+    before: String
+
+    """Filter by fields"""
+    filter: FilterFindManyFundComprehensiveInput
+
+    """Sort argument for data ordering"""
+    sort: SortConnectionFundComprehensiveEnum = _ID_DESC
+  ): FundComprehensiveConnection
+  fundComprehensivePagination(
+    """Page number for displaying"""
+    page: Int
+    perPage: Int = 20
+
+    """Filter by fields"""
+    filter: FilterFindManyFundComprehensiveInput
+    sort: SortFindManyFundComprehensiveInput
+  ): FundComprehensivePagination
+  fundPricingMonthlyById(_id: MongoID!): FundPricingMonthly
+  fundPricingMonthlyByIds(_ids: [MongoID]!, limit: Int = 1000, sort: SortFindByIdsFundPricingMonthlyInput): [FundPricingMonthly]
+  fundPricingMonthlyOne(
+    """Filter by fields"""
+    filter: FilterFindOneFundPricingMonthlyInput
+    skip: Int
+    sort: SortFindOneFundPricingMonthlyInput
+  ): FundPricingMonthly
+  fundPricingMonthlyMany(
+    """Filter by fields"""
+    filter: FilterFindManyFundPricingMonthlyInput
+    skip: Int
+    limit: Int = 1000
+    sort: SortFindManyFundPricingMonthlyInput
+  ): [FundPricingMonthly]
+  fundPricingMonthlyCount(
+    """Filter by fields"""
+    filter: FilterFundPricingMonthlyInput
+  ): Int
+  fundPricingMonthlyConnection(
+    """Forward pagination argument for returning at most first edges"""
+    first: Int
+
+    """Forward pagination argument for returning at most first edges"""
+    after: String
+
+    """Backward pagination argument for returning at most last edges"""
+    last: Int
+
+    """Backward pagination argument for returning at most last edges"""
+    before: String
+
+    """Filter by fields"""
+    filter: FilterFindManyFundPricingMonthlyInput
+
+    """Sort argument for data ordering"""
+    sort: SortConnectionFundPricingMonthlyEnum = _ID_DESC
+  ): FundPricingMonthlyConnection
+  fundPricingMonthlyPagination(
+    """Page number for displaying"""
+    page: Int
+    perPage: Int = 20
+
+    """Filter by fields"""
+    filter: FilterFindManyFundPricingMonthlyInput
+    sort: SortFindManyFundPricingMonthlyInput
+  ): FundPricingMonthlyPagination
+  fundById(_id: MongoID!): Fund
+  fundByIds(_ids: [MongoID]!, limit: Int = 1000, sort: SortFindByIdsFundInput): [Fund]
+  fundOne(
+    """Filter by fields"""
+    filter: FilterFindOneFundInput
+    skip: Int
+    sort: SortFindOneFundInput
+  ): Fund
+  fundMany(
+    """Filter by fields"""
+    filter: FilterFindManyFundInput
+    skip: Int
+    limit: Int = 1000
+    sort: SortFindManyFundInput
+  ): [Fund]
+  fundCount(
+    """Filter by fields"""
+    filter: FilterFundInput
+  ): Int
+  fundConnection(
+    """Forward pagination argument for returning at most first edges"""
+    first: Int
+
+    """Forward pagination argument for returning at most first edges"""
+    after: String
+
+    """Backward pagination argument for returning at most last edges"""
+    last: Int
+
+    """Backward pagination argument for returning at most last edges"""
+    before: String
+
+    """Filter by fields"""
+    filter: FilterFindManyFundInput
+
+    """Sort argument for data ordering"""
+    sort: SortConnectionFundEnum = _ID_DESC
+  ): FundConnection
+  fundPagination(
+    """Page number for displaying"""
+    page: Int
+    perPage: Int = 20
+
+    """Filter by fields"""
+    filter: FilterFindManyFundInput
+    sort: SortFindManyFundInput
+  ): FundPagination
+  partyById(_id: MongoID!): Party
+  partyByIds(_ids: [MongoID]!, limit: Int = 1000, sort: SortFindByIdsPartyInput): [Party]
+  partyOne(
+    """Filter by fields"""
+    filter: FilterFindOnePartyInput
+    skip: Int
+    sort: SortFindOnePartyInput
+  ): Party
+  partyMany(
+    """Filter by fields"""
+    filter: FilterFindManyPartyInput
+    skip: Int
+    limit: Int = 1000
+    sort: SortFindManyPartyInput
+  ): [Party]
+  partyCount(
+    """Filter by fields"""
+    filter: FilterPartyInput
+  ): Int
+  partyConnection(
+    """Forward pagination argument for returning at most first edges"""
+    first: Int
+
+    """Forward pagination argument for returning at most first edges"""
+    after: String
+
+    """Backward pagination argument for returning at most last edges"""
+    last: Int
+
+    """Backward pagination argument for returning at most last edges"""
+    before: String
+
+    """Filter by fields"""
+    filter: FilterFindManyPartyInput
+
+    """Sort argument for data ordering"""
+    sort: SortConnectionPartyEnum = _ID_DESC
+  ): PartyConnection
+  partyPagination(
+    """Page number for displaying"""
+    page: Int
+    perPage: Int = 20
+
+    """Filter by fields"""
+    filter: FilterFindManyPartyInput
+    sort: SortFindManyPartyInput
+  ): PartyPagination
+  policyById(_id: MongoID!): Policy
+  policyByIds(_ids: [MongoID]!, limit: Int = 1000, sort: SortFindByIdsPolicyInput): [Policy]
+  policyOne(
+    """Filter by fields"""
+    filter: FilterFindOnePolicyInput
+    skip: Int
+    sort: SortFindOnePolicyInput
+  ): Policy
+  policyMany(
+    """Filter by fields"""
+    filter: FilterFindManyPolicyInput
+    skip: Int
+    limit: Int = 1000
+    sort: SortFindManyPolicyInput
+  ): [Policy]
+  policyCount(
+    """Filter by fields"""
+    filter: FilterPolicyInput
+  ): Int
+  policyConnection(
+    """Forward pagination argument for returning at most first edges"""
+    first: Int
+
+    """Forward pagination argument for returning at most first edges"""
+    after: String
+
+    """Backward pagination argument for returning at most last edges"""
+    last: Int
+
+    """Backward pagination argument for returning at most last edges"""
+    before: String
+
+    """Filter by fields"""
+    filter: FilterFindManyPolicyInput
+
+    """Sort argument for data ordering"""
+    sort: SortConnectionPolicyEnum = _ID_DESC
+  ): PolicyConnection
+  policyPagination(
+    """Page number for displaying"""
+    page: Int
+    perPage: Int = 20
+
+    """Filter by fields"""
+    filter: FilterFindManyPolicyInput
+    sort: SortFindManyPolicyInput
+  ): PolicyPagination
+  riskProfileLookupById(_id: MongoID!): RiskProfileLookup
+  riskProfileLookupByIds(_ids: [MongoID]!, limit: Int = 1000, sort: SortFindByIdsRiskProfileLookupInput): [RiskProfileLookup]
+  riskProfileLookupOne(
+    """Filter by fields"""
+    filter: FilterFindOneRiskProfileLookupInput
+    skip: Int
+    sort: SortFindOneRiskProfileLookupInput
+  ): RiskProfileLookup
+  riskProfileLookupMany(
+    """Filter by fields"""
+    filter: FilterFindManyRiskProfileLookupInput
+    skip: Int
+    limit: Int = 1000
+    sort: SortFindManyRiskProfileLookupInput
+  ): [RiskProfileLookup]
+  riskProfileLookupCount(
+    """Filter by fields"""
+    filter: FilterRiskProfileLookupInput
+  ): Int
+  riskProfileLookupConnection(
+    """Forward pagination argument for returning at most first edges"""
+    first: Int
+
+    """Forward pagination argument for returning at most first edges"""
+    after: String
+
+    """Backward pagination argument for returning at most last edges"""
+    last: Int
+
+    """Backward pagination argument for returning at most last edges"""
+    before: String
+
+    """Filter by fields"""
+    filter: FilterFindManyRiskProfileLookupInput
+
+    """Sort argument for data ordering"""
+    sort: SortConnectionRiskProfileLookupEnum = _ID_DESC
+  ): RiskProfileLookupConnection
+  riskProfileLookupPagination(
+    """Page number for displaying"""
+    page: Int
+    perPage: Int = 20
+
+    """Filter by fields"""
+    filter: FilterFindManyRiskProfileLookupInput
+    sort: SortFindManyRiskProfileLookupInput
+  ): RiskProfileLookupPagination
+  sectorFundPricingMonthlyById(_id: MongoID!): SectorFundPricingMonthly
+  sectorFundPricingMonthlyByIds(_ids: [MongoID]!, limit: Int = 1000, sort: SortFindByIdsSectorFundPricingMonthlyInput): [SectorFundPricingMonthly]
+  sectorFundPricingMonthlyOne(
+    """Filter by fields"""
+    filter: FilterFindOneSectorFundPricingMonthlyInput
+    skip: Int
+    sort: SortFindOneSectorFundPricingMonthlyInput
+  ): SectorFundPricingMonthly
+  sectorFundPricingMonthlyMany(
+    """Filter by fields"""
+    filter: FilterFindManySectorFundPricingMonthlyInput
+    skip: Int
+    limit: Int = 1000
+    sort: SortFindManySectorFundPricingMonthlyInput
+  ): [SectorFundPricingMonthly]
+  sectorFundPricingMonthlyCount(
+    """Filter by fields"""
+    filter: FilterSectorFundPricingMonthlyInput
+  ): Int
+  sectorFundPricingMonthlyConnection(
+    """Forward pagination argument for returning at most first edges"""
+    first: Int
+
+    """Forward pagination argument for returning at most first edges"""
+    after: String
+
+    """Backward pagination argument for returning at most last edges"""
+    last: Int
+
+    """Backward pagination argument for returning at most last edges"""
+    before: String
+
+    """Filter by fields"""
+    filter: FilterFindManySectorFundPricingMonthlyInput
+
+    """Sort argument for data ordering"""
+    sort: SortConnectionSectorFundPricingMonthlyEnum = _ID_DESC
+  ): SectorFundPricingMonthlyConnection
+  sectorFundPricingMonthlyPagination(
+    """Page number for displaying"""
+    page: Int
+    perPage: Int = 20
+
+    """Filter by fields"""
+    filter: FilterFindManySectorFundPricingMonthlyInput
+    sort: SortFindManySectorFundPricingMonthlyInput
+  ): SectorFundPricingMonthlyPagination
+  sectorFundPricingById(_id: MongoID!): SectorFundPricing
+  sectorFundPricingByIds(_ids: [MongoID]!, limit: Int = 1000, sort: SortFindByIdsSectorFundPricingInput): [SectorFundPricing]
+  sectorFundPricingOne(
+    """Filter by fields"""
+    filter: FilterFindOneSectorFundPricingInput
+    skip: Int
+    sort: SortFindOneSectorFundPricingInput
+  ): SectorFundPricing
+  sectorFundPricingMany(
+    """Filter by fields"""
+    filter: FilterFindManySectorFundPricingInput
+    skip: Int
+    limit: Int = 1000
+    sort: SortFindManySectorFundPricingInput
+  ): [SectorFundPricing]
+  sectorFundPricingCount(
+    """Filter by fields"""
+    filter: FilterSectorFundPricingInput
+  ): Int
+  sectorFundPricingConnection(
+    """Forward pagination argument for returning at most first edges"""
+    first: Int
+
+    """Forward pagination argument for returning at most first edges"""
+    after: String
+
+    """Backward pagination argument for returning at most last edges"""
+    last: Int
+
+    """Backward pagination argument for returning at most last edges"""
+    before: String
+
+    """Filter by fields"""
+    filter: FilterFindManySectorFundPricingInput
+
+    """Sort argument for data ordering"""
+    sort: SortConnectionSectorFundPricingEnum = _ID_DESC
+  ): SectorFundPricingConnection
+  sectorFundPricingPagination(
+    """Page number for displaying"""
+    page: Int
+    perPage: Int = 20
+
+    """Filter by fields"""
+    filter: FilterFindManySectorFundPricingInput
+    sort: SortFindManySectorFundPricingInput
+  ): SectorFundPricingPagination
+  subscriptionById(_id: MongoID!): Subscription
+  subscriptionByIds(_ids: [MongoID]!, limit: Int = 1000, sort: SortFindByIdsSubscriptionInput): [Subscription]
+  subscriptionOne(
+    """Filter by fields"""
+    filter: FilterFindOneSubscriptionInput
+    skip: Int
+    sort: SortFindOneSubscriptionInput
+  ): Subscription
+  subscriptionMany(
+    """Filter by fields"""
+    filter: FilterFindManySubscriptionInput
+    skip: Int
+    limit: Int = 1000
+    sort: SortFindManySubscriptionInput
+  ): [Subscription]
+  subscriptionCount(
+    """Filter by fields"""
+    filter: FilterSubscriptionInput
+  ): Int
+  subscriptionConnection(
+    """Forward pagination argument for returning at most first edges"""
+    first: Int
+
+    """Forward pagination argument for returning at most first edges"""
+    after: String
+
+    """Backward pagination argument for returning at most last edges"""
+    last: Int
+
+    """Backward pagination argument for returning at most last edges"""
+    before: String
+
+    """Filter by fields"""
+    filter: FilterFindManySubscriptionInput
+
+    """Sort argument for data ordering"""
+    sort: SortConnectionSubscriptionEnum = _ID_DESC
+  ): SubscriptionConnection
+  subscriptionPagination(
+    """Page number for displaying"""
+    page: Int
+    perPage: Int = 20
+
+    """Filter by fields"""
+    filter: FilterFindManySubscriptionInput
+    sort: SortFindManySubscriptionInput
+  ): SubscriptionPagination
+}
+
+type RemoveByIdFundComprehensivePayload {
+  """Removed document ID"""
+  recordId: MongoID
+
+  """Removed document"""
+  record: FundComprehensive
+}
+
+type RemoveByIdFundPayload {
+  """Removed document ID"""
+  recordId: MongoID
+
+  """Removed document"""
+  record: Fund
+}
+
+type RemoveByIdFundPricingMonthlyPayload {
+  """Removed document ID"""
+  recordId: MongoID
+
+  """Removed document"""
+  record: FundPricingMonthly
+}
+
+type RemoveByIdPartyPayload {
+  """Removed document ID"""
+  recordId: MongoID
+
+  """Removed document"""
+  record: Party
+}
+
+type RemoveByIdPolicyPayload {
+  """Removed document ID"""
+  recordId: MongoID
+
+  """Removed document"""
+  record: Policy
+}
+
+type RemoveByIdRiskProfileLookupPayload {
+  """Removed document ID"""
+  recordId: MongoID
+
+  """Removed document"""
+  record: RiskProfileLookup
+}
+
+type RemoveByIdSectorFundPricingMonthlyPayload {
+  """Removed document ID"""
+  recordId: MongoID
+
+  """Removed document"""
+  record: SectorFundPricingMonthly
+}
+
+type RemoveByIdSectorFundPricingPayload {
+  """Removed document ID"""
+  recordId: MongoID
+
+  """Removed document"""
+  record: SectorFundPricing
+}
+
+type RemoveByIdSubscriptionPayload {
+  """Removed document ID"""
+  recordId: MongoID
+
+  """Removed document"""
+  record: Subscription
+}
+
+type RemoveManyFundComprehensivePayload {
+  """Affected documents number"""
+  numAffected: Int
+}
+
+type RemoveManyFundPayload {
+  """Affected documents number"""
+  numAffected: Int
+}
+
+type RemoveManyFundPricingMonthlyPayload {
+  """Affected documents number"""
+  numAffected: Int
+}
+
+type RemoveManyPartyPayload {
+  """Affected documents number"""
+  numAffected: Int
+}
+
+type RemoveManyPolicyPayload {
+  """Affected documents number"""
+  numAffected: Int
+}
+
+type RemoveManyRiskProfileLookupPayload {
+  """Affected documents number"""
+  numAffected: Int
+}
+
+type RemoveManySectorFundPricingMonthlyPayload {
+  """Affected documents number"""
+  numAffected: Int
+}
+
+type RemoveManySectorFundPricingPayload {
+  """Affected documents number"""
+  numAffected: Int
+}
+
+type RemoveManySubscriptionPayload {
+  """Affected documents number"""
+  numAffected: Int
+}
+
+type RemoveOneFundComprehensivePayload {
+  """Removed document ID"""
+  recordId: MongoID
+
+  """Removed document"""
+  record: FundComprehensive
+}
+
+type RemoveOneFundPayload {
+  """Removed document ID"""
+  recordId: MongoID
+
+  """Removed document"""
+  record: Fund
+}
+
+type RemoveOneFundPricingMonthlyPayload {
+  """Removed document ID"""
+  recordId: MongoID
+
+  """Removed document"""
+  record: FundPricingMonthly
+}
+
+type RemoveOnePartyPayload {
+  """Removed document ID"""
+  recordId: MongoID
+
+  """Removed document"""
+  record: Party
+}
+
+type RemoveOnePolicyPayload {
+  """Removed document ID"""
+  recordId: MongoID
+
+  """Removed document"""
+  record: Policy
+}
+
+type RemoveOneRiskProfileLookupPayload {
+  """Removed document ID"""
+  recordId: MongoID
+
+  """Removed document"""
+  record: RiskProfileLookup
+}
+
+type RemoveOneSectorFundPricingMonthlyPayload {
+  """Removed document ID"""
+  recordId: MongoID
+
+  """Removed document"""
+  record: SectorFundPricingMonthly
+}
+
+type RemoveOneSectorFundPricingPayload {
+  """Removed document ID"""
+  recordId: MongoID
+
+  """Removed document"""
+  record: SectorFundPricing
+}
+
+type RemoveOneSubscriptionPayload {
+  """Removed document ID"""
+  recordId: MongoID
+
+  """Removed document"""
+  record: Subscription
+}
+
+type RiskProfileLookup {
+  _id: String!
+  policyNumber: String
+  product: String
+  productCategory: String
+  riskProfile: String
+  riskProfileCode: String
+  portfolioRiskRatingMin: Float
+  portfolioRiskRatingMax: Float
+  performanceGoal: String
+  inflationPlus: String
+  assetClass: String
+  assetClassCode: String
+  min: Float
+  max: Float
+}
+
+"""A connection to a list of items."""
+type RiskProfileLookupConnection {
+  """Total object count."""
+  count: Int!
+
+  """Information to aid in pagination."""
+  pageInfo: PageInfo!
+
+  """Information to aid in pagination."""
+  edges: [RiskProfileLookupEdge!]!
+}
+
+"""An edge in a connection."""
+type RiskProfileLookupEdge {
+  """The item at the end of the edge"""
+  node: RiskProfileLookup!
+
+  """A cursor for use in pagination"""
+  cursor: String!
+}
+
+"""List of items with pagination."""
+type RiskProfileLookupPagination {
+  """Total object count."""
+  count: Int
+
+  """Array of objects."""
+  items: [RiskProfileLookup]
+
+  """Information to aid in pagination."""
+  pageInfo: PaginationInfo!
+}
+
+type SectorFundPricing {
+  _id: String!
+  aciSectorCode: String
+  triPrice: Float
+  pricedDt: Date
+  avgReturn: Float
+}
+
+"""A connection to a list of items."""
+type SectorFundPricingConnection {
+  """Total object count."""
+  count: Int!
+
+  """Information to aid in pagination."""
+  pageInfo: PageInfo!
+
+  """Information to aid in pagination."""
+  edges: [SectorFundPricingEdge!]!
+}
+
+"""An edge in a connection."""
+type SectorFundPricingEdge {
+  """The item at the end of the edge"""
+  node: SectorFundPricing!
+
+  """A cursor for use in pagination"""
+  cursor: String!
+}
+
+type SectorFundPricingMonthly {
+  _id: String!
+  aciSectorCode: String
+  monthlyReturns: Float
+}
+
+"""A connection to a list of items."""
+type SectorFundPricingMonthlyConnection {
+  """Total object count."""
+  count: Int!
+
+  """Information to aid in pagination."""
+  pageInfo: PageInfo!
+
+  """Information to aid in pagination."""
+  edges: [SectorFundPricingMonthlyEdge!]!
+}
+
+"""An edge in a connection."""
+type SectorFundPricingMonthlyEdge {
+  """The item at the end of the edge"""
+  node: SectorFundPricingMonthly!
+
+  """A cursor for use in pagination"""
+  cursor: String!
+}
+
+"""List of items with pagination."""
+type SectorFundPricingMonthlyPagination {
+  """Total object count."""
+  count: Int
+
+  """Array of objects."""
+  items: [SectorFundPricingMonthly]
+
+  """Information to aid in pagination."""
+  pageInfo: PaginationInfo!
+}
+
+"""List of items with pagination."""
+type SectorFundPricingPagination {
+  """Total object count."""
+  count: Int
+
+  """Array of objects."""
+  items: [SectorFundPricing]
+
+  """Information to aid in pagination."""
+  pageInfo: PaginationInfo!
+}
+
+enum SortConnectionFundComprehensiveEnum {
+  _ID_DESC
+  _ID_ASC
+}
+
+enum SortConnectionFundEnum {
+  _ID_DESC
+  _ID_ASC
+}
+
+enum SortConnectionFundPricingMonthlyEnum {
+  _ID_DESC
+  _ID_ASC
+}
+
+enum SortConnectionPartyEnum {
+  _ID_DESC
+  _ID_ASC
+}
+
+enum SortConnectionPolicyEnum {
+  _ID_DESC
+  _ID_ASC
+}
+
+enum SortConnectionRiskProfileLookupEnum {
+  _ID_DESC
+  _ID_ASC
+}
+
+enum SortConnectionSectorFundPricingEnum {
+  _ID_DESC
+  _ID_ASC
+}
+
+enum SortConnectionSectorFundPricingMonthlyEnum {
+  _ID_DESC
+  _ID_ASC
+}
+
+enum SortConnectionSubscriptionEnum {
+  _ID_DESC
+  _ID_ASC
+}
+
+enum SortFindByIdsFundComprehensiveInput {
+  _ID_ASC
+  _ID_DESC
+}
+
+enum SortFindByIdsFundInput {
+  _ID_ASC
+  _ID_DESC
+}
+
+enum SortFindByIdsFundPricingMonthlyInput {
+  _ID_ASC
+  _ID_DESC
+}
+
+enum SortFindByIdsPartyInput {
+  _ID_ASC
+  _ID_DESC
+}
+
+enum SortFindByIdsPolicyInput {
+  _ID_ASC
+  _ID_DESC
+}
+
+enum SortFindByIdsRiskProfileLookupInput {
+  _ID_ASC
+  _ID_DESC
+}
+
+enum SortFindByIdsSectorFundPricingInput {
+  _ID_ASC
+  _ID_DESC
+}
+
+enum SortFindByIdsSectorFundPricingMonthlyInput {
+  _ID_ASC
+  _ID_DESC
+}
+
+enum SortFindByIdsSubscriptionInput {
+  _ID_ASC
+  _ID_DESC
+}
+
+enum SortFindManyFundComprehensiveInput {
+  _ID_ASC
+  _ID_DESC
+}
+
+enum SortFindManyFundInput {
+  _ID_ASC
+  _ID_DESC
+}
+
+enum SortFindManyFundPricingMonthlyInput {
+  _ID_ASC
+  _ID_DESC
+}
+
+enum SortFindManyPartyInput {
+  _ID_ASC
+  _ID_DESC
+}
+
+enum SortFindManyPolicyInput {
+  _ID_ASC
+  _ID_DESC
+}
+
+enum SortFindManyRiskProfileLookupInput {
+  _ID_ASC
+  _ID_DESC
+}
+
+enum SortFindManySectorFundPricingInput {
+  _ID_ASC
+  _ID_DESC
+}
+
+enum SortFindManySectorFundPricingMonthlyInput {
+  _ID_ASC
+  _ID_DESC
+}
+
+enum SortFindManySubscriptionInput {
+  _ID_ASC
+  _ID_DESC
+}
+
+enum SortFindOneFundComprehensiveInput {
+  _ID_ASC
+  _ID_DESC
+}
+
+enum SortFindOneFundInput {
+  _ID_ASC
+  _ID_DESC
+}
+
+enum SortFindOneFundPricingMonthlyInput {
+  _ID_ASC
+  _ID_DESC
+}
+
+enum SortFindOnePartyInput {
+  _ID_ASC
+  _ID_DESC
+}
+
+enum SortFindOnePolicyInput {
+  _ID_ASC
+  _ID_DESC
+}
+
+enum SortFindOneRiskProfileLookupInput {
+  _ID_ASC
+  _ID_DESC
+}
+
+enum SortFindOneSectorFundPricingInput {
+  _ID_ASC
+  _ID_DESC
+}
+
+enum SortFindOneSectorFundPricingMonthlyInput {
+  _ID_ASC
+  _ID_DESC
+}
+
+enum SortFindOneSubscriptionInput {
+  _ID_ASC
+  _ID_DESC
+}
+
+enum SortRemoveOneFundComprehensiveInput {
+  _ID_ASC
+  _ID_DESC
+}
+
+enum SortRemoveOneFundInput {
+  _ID_ASC
+  _ID_DESC
+}
+
+enum SortRemoveOneFundPricingMonthlyInput {
+  _ID_ASC
+  _ID_DESC
+}
+
+enum SortRemoveOnePartyInput {
+  _ID_ASC
+  _ID_DESC
+}
+
+enum SortRemoveOnePolicyInput {
+  _ID_ASC
+  _ID_DESC
+}
+
+enum SortRemoveOneRiskProfileLookupInput {
+  _ID_ASC
+  _ID_DESC
+}
+
+enum SortRemoveOneSectorFundPricingInput {
+  _ID_ASC
+  _ID_DESC
+}
+
+enum SortRemoveOneSectorFundPricingMonthlyInput {
+  _ID_ASC
+  _ID_DESC
+}
+
+enum SortRemoveOneSubscriptionInput {
+  _ID_ASC
+  _ID_DESC
+}
+
+enum SortUpdateManyFundComprehensiveInput {
+  _ID_ASC
+  _ID_DESC
+}
+
+enum SortUpdateManyFundInput {
+  _ID_ASC
+  _ID_DESC
+}
+
+enum SortUpdateManyFundPricingMonthlyInput {
+  _ID_ASC
+  _ID_DESC
+}
+
+enum SortUpdateManyPartyInput {
+  _ID_ASC
+  _ID_DESC
+}
+
+enum SortUpdateManyPolicyInput {
+  _ID_ASC
+  _ID_DESC
+}
+
+enum SortUpdateManyRiskProfileLookupInput {
+  _ID_ASC
+  _ID_DESC
+}
+
+enum SortUpdateManySectorFundPricingInput {
+  _ID_ASC
+  _ID_DESC
+}
+
+enum SortUpdateManySectorFundPricingMonthlyInput {
+  _ID_ASC
+  _ID_DESC
+}
+
+enum SortUpdateManySubscriptionInput {
+  _ID_ASC
+  _ID_DESC
+}
+
+enum SortUpdateOneFundComprehensiveInput {
+  _ID_ASC
+  _ID_DESC
+}
+
+enum SortUpdateOneFundInput {
+  _ID_ASC
+  _ID_DESC
+}
+
+enum SortUpdateOneFundPricingMonthlyInput {
+  _ID_ASC
+  _ID_DESC
+}
+
+enum SortUpdateOnePartyInput {
+  _ID_ASC
+  _ID_DESC
+}
+
+enum SortUpdateOnePolicyInput {
+  _ID_ASC
+  _ID_DESC
+}
+
+enum SortUpdateOneRiskProfileLookupInput {
+  _ID_ASC
+  _ID_DESC
+}
+
+enum SortUpdateOneSectorFundPricingInput {
+  _ID_ASC
+  _ID_DESC
+}
+
+enum SortUpdateOneSectorFundPricingMonthlyInput {
+  _ID_ASC
+  _ID_DESC
+}
+
+enum SortUpdateOneSubscriptionInput {
+  _ID_ASC
+  _ID_DESC
+}
+
+type Subscription {
+  _id: String!
+  entityNumber: String
+  percentage: Float
+  amount: Float
+  role: String
+  relationship: String
+  policyNumber: String
+  policyOwnerEntityNumber: String
+  productName: String
+  productTypeCode: String
+  policyCommencementDate: Date
+  effectiveDate: Date
+}
+
+"""A connection to a list of items."""
+type SubscriptionConnection {
+  """Total object count."""
+  count: Int!
+
+  """Information to aid in pagination."""
+  pageInfo: PageInfo!
+
+  """Information to aid in pagination."""
+  edges: [SubscriptionEdge!]!
+}
+
+"""An edge in a connection."""
+type SubscriptionEdge {
+  """The item at the end of the edge"""
+  node: Subscription!
+
+  """A cursor for use in pagination"""
+  cursor: String!
+}
+
+"""List of items with pagination."""
+type SubscriptionPagination {
+  """Total object count."""
+  count: Int
+
+  """Array of objects."""
+  items: [Subscription]
+
+  """Information to aid in pagination."""
+  pageInfo: PaginationInfo!
+}
+
+input UpdateByIdFundComprehensiveInput {
+  _id: String!
+  jseFundCode: String
+  fdDescId: String
+  trustNumber: String
+  fundName: String
+  className: String
+  mainFundCode: String
+  principleFundCode: String
+  discoveryFund: Boolean
+  regulatedFund: Boolean
+  currency: String
+  capInd: Boolean
+  sharePortfolioFund: Boolean
+  ageInMonths: String
+  logInDisplay: Boolean
+  discoverySectorCode: String
+  discoverySectorDesc: String
+  aciSectorCode: String
+  aciSectorDesc: String
+  aciSectorGroup: String
+  fundPdfOrder: String
+  structuredFundPerfUrl: String
+  fundFocus: String
+  benchmarkName: String
+  launchDate: Date
+  incomeDistribFreq: String
+  yearlyPerformanceDisclaimer: String
+  historicalRiskCd: String
+  historicalRisk: String
+  historicalReturnCd: String
+  historicalReturn: String
+  sectorRank: String
+  sectorQuartilePct: String
+  sectorRankQuartile: String
+  sectorCount: String
+  world: Boolean
+  ebFund: Boolean
+  ebMapping: String
+  ebFundStatement: String
+  mancoId: String
+  mancoName: String
+  fundManager: [FundComprehensiveFundManagerInput]
+  commentaries: [FundComprehensiveCommentariesInput]
+  fees: [FundComprehensiveFeesInput]
+  performance: [FundComprehensivePerformanceInput]
+  sectorPerformance: [FundComprehensiveSectorPerformanceInput]
+  facts: [FundComprehensiveFactsInput]
+  assetAllocation: [FundComprehensiveAssetAllocationInput]
+  sectorAllocation: [FundComprehensiveSectorAllocationInput]
+  topHoldings: [FundComprehensiveTopHoldingsInput]
+  incomeDistribution: [FundComprehensiveIncomeDistributionInput]
+  cashSplit: [FundComprehensiveCashSplitInput]
+  productAvailable: [FundComprehensiveProductAvailableInput]
+  reg28: JSON
+  fofBreakdown: [FundComprehensiveFofBreakdownInput]
+}
+
+type UpdateByIdFundComprehensivePayload {
+  """Updated document ID"""
+  recordId: MongoID
+
+  """Updated document"""
+  record: FundComprehensive
+}
+
+input UpdateByIdFundInput {
+  _id: String!
+  fundCode: String
+  principleFundCode: String
+  mainFundCode: String
+  isinCode: String
+  trustNumber: Float
+  longName: String
+  className: String
+  currency: String
+  discoveryFund: String
+  fundCap: String
+  specialCap: String
+  regulatedFund: String
+  principleClass: String
+  webDisplay: String
+  sharePortfolioFund: String
+  aciSectorCode: String
+  aciSectorGroup: String
+  assetManager: String
+  discoverySectorCode: String
+  discoverySectorDesc: String
+  ageInMonths: String
+  assetAllocations: [FundAssetAllocationsInput]
+}
+
+type UpdateByIdFundPayload {
+  """Updated document ID"""
+  recordId: MongoID
+
+  """Updated document"""
+  record: Fund
+}
+
+input UpdateByIdFundPricingMonthlyInput {
+  _id: String!
+  jseFundCode: String
+  monthlyReturns: Float
+}
+
+type UpdateByIdFundPricingMonthlyPayload {
+  """Updated document ID"""
+  recordId: MongoID
+
+  """Updated document"""
+  record: FundPricingMonthly
+}
+
+input UpdateByIdPartyInput {
+  entityNumber: String
+  firstname: String
+  surname: String
+  dateOfBirth: String
+  gender: String
+  maritalStatus: String
+  contactEmails: [PartyContactEmailsInput]
+  contactNumbers: [PartyContactNumbersInput]
+  legalIdentities: [PartyLegalIdentitiesInput]
+  _id: MongoID!
+}
+
+type UpdateByIdPartyPayload {
+  """Updated document ID"""
+  recordId: MongoID
+
+  """Updated document"""
+  record: Party
+}
+
+input UpdateByIdPolicyInput {
+  _id: String!
+  policyNumber: String
+  umbrellaNumber: String
+  commencementDate: Date
+  productCode: String
+  productName: Float
+  ownerEntityNumber: String
+  ownerName: String
+  ownerFirstnames: String
+  ownerSurname: String
+  ownerEntityType: String
+  brokerEntityNumber: String
+  status: String
+  maturityDate: Date
+  groupName: String
+  annualContributionIncrease: String
+  premiumFrequency: String
+  recurringPremium: String
+  totalSinglePremium: String
+  initialContribution: String
+  adhocContribution: String
+  totalContributions: String
+  totalWithdrawals: String
+  fundValue: String
+  maturityValue: String
+  growthRate: String
+  incomeEscalationRate: String
+  reportingCurrency: String
+  extractDate: Date
+  fundAllocation: [MongoID]
+  cessionType: String
+}
+
+type UpdateByIdPolicyPayload {
+  """Updated document ID"""
+  recordId: MongoID
+
+  """Updated document"""
+  record: Policy
+}
+
+input UpdateByIdRiskProfileLookupInput {
+  _id: String!
+  policyNumber: String
+  product: String
+  productCategory: String
+  riskProfile: String
+  riskProfileCode: String
+  portfolioRiskRatingMin: Float
+  portfolioRiskRatingMax: Float
+  performanceGoal: String
+  inflationPlus: String
+  assetClass: String
+  assetClassCode: String
+  min: Float
+  max: Float
+}
+
+type UpdateByIdRiskProfileLookupPayload {
+  """Updated document ID"""
+  recordId: MongoID
+
+  """Updated document"""
+  record: RiskProfileLookup
+}
+
+input UpdateByIdSectorFundPricingInput {
+  _id: String!
+  aciSectorCode: String
+  triPrice: Float
+  pricedDt: Date
+  avgReturn: Float
+}
+
+input UpdateByIdSectorFundPricingMonthlyInput {
+  _id: String!
+  aciSectorCode: String
+  monthlyReturns: Float
+}
+
+type UpdateByIdSectorFundPricingMonthlyPayload {
+  """Updated document ID"""
+  recordId: MongoID
+
+  """Updated document"""
+  record: SectorFundPricingMonthly
+}
+
+type UpdateByIdSectorFundPricingPayload {
+  """Updated document ID"""
+  recordId: MongoID
+
+  """Updated document"""
+  record: SectorFundPricing
+}
+
+input UpdateByIdSubscriptionInput {
+  _id: String!
+  entityNumber: String
+  percentage: Float
+  amount: Float
+  role: String
+  relationship: String
+  policyNumber: String
+  policyOwnerEntityNumber: String
+  productName: String
+  productTypeCode: String
+  policyCommencementDate: Date
+  effectiveDate: Date
+}
+
+type UpdateByIdSubscriptionPayload {
+  """Updated document ID"""
+  recordId: MongoID
+
+  """Updated document"""
+  record: Subscription
+}
+
+input UpdateManyFundComprehensiveInput {
+  jseFundCode: String
+  fdDescId: String
+  trustNumber: String
+  fundName: String
+  className: String
+  mainFundCode: String
+  principleFundCode: String
+  discoveryFund: Boolean
+  regulatedFund: Boolean
+  currency: String
+  capInd: Boolean
+  sharePortfolioFund: Boolean
+  ageInMonths: String
+  logInDisplay: Boolean
+  discoverySectorCode: String
+  discoverySectorDesc: String
+  aciSectorCode: String
+  aciSectorDesc: String
+  aciSectorGroup: String
+  fundPdfOrder: String
+  structuredFundPerfUrl: String
+  fundFocus: String
+  benchmarkName: String
+  launchDate: Date
+  incomeDistribFreq: String
+  yearlyPerformanceDisclaimer: String
+  historicalRiskCd: String
+  historicalRisk: String
+  historicalReturnCd: String
+  historicalReturn: String
+  sectorRank: String
+  sectorQuartilePct: String
+  sectorRankQuartile: String
+  sectorCount: String
+  world: Boolean
+  ebFund: Boolean
+  ebMapping: String
+  ebFundStatement: String
+  mancoId: String
+  mancoName: String
+  fundManager: [FundComprehensiveFundManagerInput]
+  commentaries: [FundComprehensiveCommentariesInput]
+  fees: [FundComprehensiveFeesInput]
+  performance: [FundComprehensivePerformanceInput]
+  sectorPerformance: [FundComprehensiveSectorPerformanceInput]
+  facts: [FundComprehensiveFactsInput]
+  assetAllocation: [FundComprehensiveAssetAllocationInput]
+  sectorAllocation: [FundComprehensiveSectorAllocationInput]
+  topHoldings: [FundComprehensiveTopHoldingsInput]
+  incomeDistribution: [FundComprehensiveIncomeDistributionInput]
+  cashSplit: [FundComprehensiveCashSplitInput]
+  productAvailable: [FundComprehensiveProductAvailableInput]
+  reg28: JSON
+  fofBreakdown: [FundComprehensiveFofBreakdownInput]
+}
+
+type UpdateManyFundComprehensivePayload {
+  """Affected documents number"""
+  numAffected: Int
+}
+
+input UpdateManyFundInput {
+  fundCode: String
+  principleFundCode: String
+  mainFundCode: String
+  isinCode: String
+  trustNumber: Float
+  longName: String
+  className: String
+  currency: String
+  discoveryFund: String
+  fundCap: String
+  specialCap: String
+  regulatedFund: String
+  principleClass: String
+  webDisplay: String
+  sharePortfolioFund: String
+  aciSectorCode: String
+  aciSectorGroup: String
+  assetManager: String
+  discoverySectorCode: String
+  discoverySectorDesc: String
+  ageInMonths: String
+  assetAllocations: [FundAssetAllocationsInput]
+}
+
+type UpdateManyFundPayload {
+  """Affected documents number"""
+  numAffected: Int
+}
+
+input UpdateManyFundPricingMonthlyInput {
+  jseFundCode: String
+  monthlyReturns: Float
+}
+
+type UpdateManyFundPricingMonthlyPayload {
+  """Affected documents number"""
+  numAffected: Int
+}
+
+input UpdateManyPartyInput {
+  entityNumber: String
+  firstname: String
+  surname: String
+  dateOfBirth: String
+  gender: String
+  maritalStatus: String
+  contactEmails: [PartyContactEmailsInput]
+  contactNumbers: [PartyContactNumbersInput]
+  legalIdentities: [PartyLegalIdentitiesInput]
+}
+
+type UpdateManyPartyPayload {
+  """Affected documents number"""
+  numAffected: Int
+}
+
+input UpdateManyPolicyInput {
+  policyNumber: String
+  umbrellaNumber: String
+  commencementDate: Date
+  productCode: String
+  productName: Float
+  ownerEntityNumber: String
+  ownerName: String
+  ownerFirstnames: String
+  ownerSurname: String
+  ownerEntityType: String
+  brokerEntityNumber: String
+  status: String
+  maturityDate: Date
+  groupName: String
+  annualContributionIncrease: String
+  premiumFrequency: String
+  recurringPremium: String
+  totalSinglePremium: String
+  initialContribution: String
+  adhocContribution: String
+  totalContributions: String
+  totalWithdrawals: String
+  fundValue: String
+  maturityValue: String
+  growthRate: String
+  incomeEscalationRate: String
+  reportingCurrency: String
+  extractDate: Date
+  fundAllocation: [MongoID]
+  cessionType: String
+}
+
+type UpdateManyPolicyPayload {
+  """Affected documents number"""
+  numAffected: Int
+}
+
+input UpdateManyRiskProfileLookupInput {
+  policyNumber: String
+  product: String
+  productCategory: String
+  riskProfile: String
+  riskProfileCode: String
+  portfolioRiskRatingMin: Float
+  portfolioRiskRatingMax: Float
+  performanceGoal: String
+  inflationPlus: String
+  assetClass: String
+  assetClassCode: String
+  min: Float
+  max: Float
+}
+
+type UpdateManyRiskProfileLookupPayload {
+  """Affected documents number"""
+  numAffected: Int
+}
+
+input UpdateManySectorFundPricingInput {
+  aciSectorCode: String
+  triPrice: Float
+  pricedDt: Date
+  avgReturn: Float
+}
+
+input UpdateManySectorFundPricingMonthlyInput {
+  aciSectorCode: String
+  monthlyReturns: Float
+}
+
+type UpdateManySectorFundPricingMonthlyPayload {
+  """Affected documents number"""
+  numAffected: Int
+}
+
+type UpdateManySectorFundPricingPayload {
+  """Affected documents number"""
+  numAffected: Int
+}
+
+input UpdateManySubscriptionInput {
+  entityNumber: String
+  percentage: Float
+  amount: Float
+  role: String
+  relationship: String
+  policyNumber: String
+  policyOwnerEntityNumber: String
+  productName: String
+  productTypeCode: String
+  policyCommencementDate: Date
+  effectiveDate: Date
+}
+
+type UpdateManySubscriptionPayload {
+  """Affected documents number"""
+  numAffected: Int
+}
+
+input UpdateOneFundComprehensiveInput {
+  jseFundCode: String
+  fdDescId: String
+  trustNumber: String
+  fundName: String
+  className: String
+  mainFundCode: String
+  principleFundCode: String
+  discoveryFund: Boolean
+  regulatedFund: Boolean
+  currency: String
+  capInd: Boolean
+  sharePortfolioFund: Boolean
+  ageInMonths: String
+  logInDisplay: Boolean
+  discoverySectorCode: String
+  discoverySectorDesc: String
+  aciSectorCode: String
+  aciSectorDesc: String
+  aciSectorGroup: String
+  fundPdfOrder: String
+  structuredFundPerfUrl: String
+  fundFocus: String
+  benchmarkName: String
+  launchDate: Date
+  incomeDistribFreq: String
+  yearlyPerformanceDisclaimer: String
+  historicalRiskCd: String
+  historicalRisk: String
+  historicalReturnCd: String
+  historicalReturn: String
+  sectorRank: String
+  sectorQuartilePct: String
+  sectorRankQuartile: String
+  sectorCount: String
+  world: Boolean
+  ebFund: Boolean
+  ebMapping: String
+  ebFundStatement: String
+  mancoId: String
+  mancoName: String
+  fundManager: [FundComprehensiveFundManagerInput]
+  commentaries: [FundComprehensiveCommentariesInput]
+  fees: [FundComprehensiveFeesInput]
+  performance: [FundComprehensivePerformanceInput]
+  sectorPerformance: [FundComprehensiveSectorPerformanceInput]
+  facts: [FundComprehensiveFactsInput]
+  assetAllocation: [FundComprehensiveAssetAllocationInput]
+  sectorAllocation: [FundComprehensiveSectorAllocationInput]
+  topHoldings: [FundComprehensiveTopHoldingsInput]
+  incomeDistribution: [FundComprehensiveIncomeDistributionInput]
+  cashSplit: [FundComprehensiveCashSplitInput]
+  productAvailable: [FundComprehensiveProductAvailableInput]
+  reg28: JSON
+  fofBreakdown: [FundComprehensiveFofBreakdownInput]
+}
+
+type UpdateOneFundComprehensivePayload {
+  """Updated document ID"""
+  recordId: MongoID
+
+  """Updated document"""
+  record: FundComprehensive
+}
+
+input UpdateOneFundInput {
+  fundCode: String
+  principleFundCode: String
+  mainFundCode: String
+  isinCode: String
+  trustNumber: Float
+  longName: String
+  className: String
+  currency: String
+  discoveryFund: String
+  fundCap: String
+  specialCap: String
+  regulatedFund: String
+  principleClass: String
+  webDisplay: String
+  sharePortfolioFund: String
+  aciSectorCode: String
+  aciSectorGroup: String
+  assetManager: String
+  discoverySectorCode: String
+  discoverySectorDesc: String
+  ageInMonths: String
+  assetAllocations: [FundAssetAllocationsInput]
+}
+
+type UpdateOneFundPayload {
+  """Updated document ID"""
+  recordId: MongoID
+
+  """Updated document"""
+  record: Fund
+}
+
+input UpdateOneFundPricingMonthlyInput {
+  jseFundCode: String
+  monthlyReturns: Float
+}
+
+type UpdateOneFundPricingMonthlyPayload {
+  """Updated document ID"""
+  recordId: MongoID
+
+  """Updated document"""
+  record: FundPricingMonthly
+}
+
+input UpdateOnePartyInput {
+  entityNumber: String
+  firstname: String
+  surname: String
+  dateOfBirth: String
+  gender: String
+  maritalStatus: String
+  contactEmails: [PartyContactEmailsInput]
+  contactNumbers: [PartyContactNumbersInput]
+  legalIdentities: [PartyLegalIdentitiesInput]
+}
+
+type UpdateOnePartyPayload {
+  """Updated document ID"""
+  recordId: MongoID
+
+  """Updated document"""
+  record: Party
+}
+
+input UpdateOnePolicyInput {
+  policyNumber: String
+  umbrellaNumber: String
+  commencementDate: Date
+  productCode: String
+  productName: Float
+  ownerEntityNumber: String
+  ownerName: String
+  ownerFirstnames: String
+  ownerSurname: String
+  ownerEntityType: String
+  brokerEntityNumber: String
+  status: String
+  maturityDate: Date
+  groupName: String
+  annualContributionIncrease: String
+  premiumFrequency: String
+  recurringPremium: String
+  totalSinglePremium: String
+  initialContribution: String
+  adhocContribution: String
+  totalContributions: String
+  totalWithdrawals: String
+  fundValue: String
+  maturityValue: String
+  growthRate: String
+  incomeEscalationRate: String
+  reportingCurrency: String
+  extractDate: Date
+  fundAllocation: [MongoID]
+  cessionType: String
+}
+
+type UpdateOnePolicyPayload {
+  """Updated document ID"""
+  recordId: MongoID
+
+  """Updated document"""
+  record: Policy
+}
+
+input UpdateOneRiskProfileLookupInput {
+  policyNumber: String
+  product: String
+  productCategory: String
+  riskProfile: String
+  riskProfileCode: String
+  portfolioRiskRatingMin: Float
+  portfolioRiskRatingMax: Float
+  performanceGoal: String
+  inflationPlus: String
+  assetClass: String
+  assetClassCode: String
+  min: Float
+  max: Float
+}
+
+type UpdateOneRiskProfileLookupPayload {
+  """Updated document ID"""
+  recordId: MongoID
+
+  """Updated document"""
+  record: RiskProfileLookup
+}
+
+input UpdateOneSectorFundPricingInput {
+  aciSectorCode: String
+  triPrice: Float
+  pricedDt: Date
+  avgReturn: Float
+}
+
+input UpdateOneSectorFundPricingMonthlyInput {
+  aciSectorCode: String
+  monthlyReturns: Float
+}
+
+type UpdateOneSectorFundPricingMonthlyPayload {
+  """Updated document ID"""
+  recordId: MongoID
+
+  """Updated document"""
+  record: SectorFundPricingMonthly
+}
+
+type UpdateOneSectorFundPricingPayload {
+  """Updated document ID"""
+  recordId: MongoID
+
+  """Updated document"""
+  record: SectorFundPricing
+}
+
+input UpdateOneSubscriptionInput {
+  entityNumber: String
+  percentage: Float
+  amount: Float
+  role: String
+  relationship: String
+  policyNumber: String
+  policyOwnerEntityNumber: String
+  productName: String
+  productTypeCode: String
+  policyCommencementDate: Date
+  effectiveDate: Date
+}
+
+type UpdateOneSubscriptionPayload {
+  """Updated document ID"""
+  recordId: MongoID
+
+  """Updated document"""
+  record: Subscription
+}
